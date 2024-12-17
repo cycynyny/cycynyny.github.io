@@ -3883,3 +3883,23 @@ section.main {
     background-color: #3d3b38; /* Match the global body background */
     color: rgba(255, 255, 255, 0.85); /* Ensure text remains visible */
 }
+
+/* Ensure consistent text and header colors */
+section.main {
+    background-color: #3d3b38; /* Dark background */
+    color: rgba(255, 255, 255, 0.85); /* Light text for readability */
+}
+
+section.main h2, section.main header.major h2 {
+    color: #ffffff; /* White text for headers */
+}
+
+/* Optional: Horizontal line styling under headers */
+section.main header.major::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #6eb1ff; /* Light blue line */
+    margin: 10px auto;
+}
