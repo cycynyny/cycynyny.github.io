@@ -3829,7 +3829,23 @@ nav ul li .dropdown-content {
 
 /* Show Dropdown Content on Hover */
 nav ul li.dropdown:hover > .dropdown-content {
-    display: block; /* Show dropdown when hovering */
+    display: block !important; /* Show dropdown when hovering */
+}
+
+/* Dropdown Items Styling */
+nav ul li .dropdown-content li {
+    padding: 8px 12px;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+nav ul li .dropdown-content li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li .dropdown-content li a:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
 }
 
 /* Dropdown Items */
