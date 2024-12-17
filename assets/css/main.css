@@ -3855,3 +3855,15 @@ nav ul li .dropdown-content li a:hover {
     background-color: #f0f0f0; /* Light grey background on hover */
 }
 
+/* Reset anchor link styles globally */
+a {
+    color: inherit; /* Inherit text color */
+    text-decoration: none; /* Remove underline */
+    border-bottom: none !important; /* Remove dotted border */
+}
+
+/* Style anchor links on hover */
+a:hover {
+    color: #0077cc; /* Change text color on hover (adjust as needed) */
+    text-decoration: underline; /* Optional: add underline */
+}
