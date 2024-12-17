@@ -3777,20 +3777,20 @@ input, select, textarea {
 
 		}
 
-/* Add Arrow to Dropdown Items */
+/* Dropdown Arrow Fix */
 nav ul li.dropdown > a::after {
-    content: '▼'; /* Fallback: Use a visible arrow character */
+    content: '▼'; /* Unicode for down-pointing triangle */
+    font-size: 0.8em;
     margin-left: 6px;
-    font-size: 0.8em; /* Adjust arrow size */
-    color: red; /* Force the arrow to be red for testing */
-    display: inline-block;
-    font-family: Arial, sans-serif; /* Common font for testing */
+    color: inherit; /* Ensures it takes the color of parent */
+    display: inline-block; /* Forces arrow to display */
+    vertical-align: middle; /* Aligns arrow with text */
 }
 
-/* Ensure Hover Behavior Works */
 nav ul li.dropdown:hover > a::after {
-    color: blue; /* Arrow changes to blue on hover */
+    color: #0077cc; /* Changes arrow color on hover */
 }
+
 
 
 
