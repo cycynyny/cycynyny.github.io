@@ -3855,15 +3855,22 @@ nav ul li .dropdown-content li a:hover {
     background-color: #f0f0f0; /* Light grey background on hover */
 }
 
-/* Reset anchor link styles globally */
+/* Force Reset for Anchor Links */
 a {
-    color: inherit; /* Inherit text color */
-    text-decoration: none; /* Remove underline */
-    border-bottom: none !important; /* Remove dotted border */
+    color: inherit !important; /* Force inherit parent color */
+    text-decoration: none !important; /* Remove underlines */
+    border: none !important; /* Remove all borders */
+    background: none !important; /* Remove any background */
 }
 
-/* Style anchor links on hover */
+/* Anchor Links on Hover */
 a:hover {
-    color: #0077cc; /* Change text color on hover (adjust as needed) */
-    text-decoration: underline; /* Optional: add underline */
+    color: #0077cc !important; /* Hover color (adjust as needed) */
+    text-decoration: underline !important; /* Optional underline on hover */
+}
+
+/* Reset for Links Inside Sections */
+section a {
+    color: inherit !important; /* Inherit text color */
+    text-decoration: none !important;
 }
