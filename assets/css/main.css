@@ -3811,6 +3811,15 @@ nav ul li .dropdown-content li a:hover {
     background-color: #f0f0f0; /* Light grey background on hover */
 }
 
+/* Ensure Dropdown Content is Hidden by Default */
+nav ul li .dropdown-content {
+    display: none !important;
+}
+
+/* Show Dropdown on Hover */
+nav ul li.dropdown:hover .dropdown-content {
+    display: block !important;
+}
 
 
 
