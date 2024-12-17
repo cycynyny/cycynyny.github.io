@@ -3784,19 +3784,22 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-around; /* Distribute items evenly */
+    align-items: center; /* Align items vertically */
 }
 
 nav ul li {
-    position: relative; /* Ensure dropdown positions correctly */
-    padding: 10px;
+    position: relative;
+    flex: 1; /* Ensures equal space for all items */
+    text-align: center; /* Centers the text in each item */
 }
 
 nav ul li a {
     text-decoration: none;
     color: inherit;
     display: inline-block;
+    padding: 10px 0; /* Adjust vertical padding */
 }
-
 /* Dropdown Arrow */
 nav ul li.dropdown > a::after {
     content: '▼'; /* Down-pointing triangle */
