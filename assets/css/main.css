@@ -3777,19 +3777,40 @@ input, select, textarea {
 
 		}
 
-/* Dropdown Arrow Fix */
-nav ul li.dropdown > a::after {
-    content: '▼'; /* Unicode for down-pointing triangle */
-    font-size: 0.8em;
-    margin-left: 6px;
-    color: inherit; /* Ensures it takes the color of parent */
-    display: inline-block; /* Forces arrow to display */
-    vertical-align: middle; /* Aligns arrow with text */
+/* Hide Dropdown Content by Default */
+nav ul li .dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Position dropdown below the parent */
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.95); /* White background */
+    border: 1px solid #ddd;
+    min-width: 180px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it appears on top */
 }
 
-nav ul li.dropdown:hover > a::after {
-    color: #0077cc; /* Changes arrow color on hover */
+/* Show Dropdown on Hover */
+nav ul li.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown when hovering over parent */
 }
+
+/* Style Dropdown Items */
+nav ul li .dropdown-content li {
+    padding: 8px 12px;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+nav ul li .dropdown-content li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li .dropdown-content li a:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+}
+
 
 
 
