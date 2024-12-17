@@ -3777,6 +3777,57 @@ input, select, textarea {
 
 		}
 
+/* Dropdown Menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit; /* Matches your current theme */
+}
+
+/* Dropdown Content */
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Positions the dropdown below the parent */
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.95); /* Slight white background */
+    min-width: 180px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+nav ul li .dropdown-content li {
+    padding: 8px 12px;
+    white-space: nowrap; /* Keeps items in one line */
+}
+
+nav ul li .dropdown-content li a {
+    color: #333; /* Dark text for dropdown items */
+    display: block;
+}
+
+nav ul li .dropdown-content li a:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Hover effect */
+}
+
+/* Show Dropdown on Hover */
+nav ul li.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
 		@media screen and (max-width: 360px) {
 
 			#wrapper {
