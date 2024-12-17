@@ -3787,7 +3787,7 @@ nav ul {
 }
 
 nav ul li {
-    position: relative; /* Ensures dropdown is positioned relative to parent */
+    position: relative; /* Ensure dropdown positions correctly */
     padding: 10px;
 }
 
@@ -3807,29 +3807,25 @@ nav ul li.dropdown > a::after {
     color: inherit;
 }
 
-nav ul li.dropdown:hover > a::after {
-    color: #0077cc; /* Change arrow color on hover */
-}
-
-/* Dropdown Content (Hidden by Default) */
+/* Dropdown Content - Hidden by Default */
 nav ul li .dropdown-content {
-    display: none; /* Hidden initially */
+    display: none !important; /* Ensure hidden by default */
     position: absolute;
-    top: 100%; /* Positions dropdown below parent */
+    top: 100%;
     left: 0;
     background-color: #fff;
     border: 1px solid #ddd;
     min-width: 180px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /* Ensures dropdown appears above other content */
+    z-index: 1000; /* Ensure it appears above other content */
 }
 
 /* Show Dropdown Content on Hover */
-nav ul li.dropdown:hover .dropdown-content {
-    display: block; /* Show dropdown on hover */
+nav ul li.dropdown:hover > .dropdown-content {
+    display: block !important; /* Show dropdown when hovering */
 }
 
-/* Dropdown Items */
+/* Dropdown Items Styling */
 nav ul li .dropdown-content li {
     padding: 8px 12px;
     white-space: nowrap; /* Prevent text wrapping */
@@ -3844,5 +3840,6 @@ nav ul li .dropdown-content li a {
 nav ul li .dropdown-content li a:hover {
     background-color: #f0f0f0; /* Light grey background on hover */
 }
+
 
 
