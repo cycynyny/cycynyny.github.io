@@ -3844,3 +3844,17 @@ nav ul li .dropdown-content li a:hover {
 nav ul li.dropdown:hover .dropdown-content {
     display: block; /* Display the dropdown when hovering */
 }
+
+/* Add Arrow to Dropdown Items */
+nav ul li.dropdown > a::after {
+    content: '\25BE'; /* Unicode for down-pointing small triangle */
+    margin-left: 6px;
+    font-size: 0.8em; /* Adjust arrow size */
+    color: inherit; /* Match text color */
+}
+
+/* Adjust Arrow on Hover */
+nav ul li.dropdown:hover > a::after {
+    color: #0077cc; /* Arrow color on hover (adjust as needed) */
+}
+
