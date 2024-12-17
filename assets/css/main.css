@@ -3784,22 +3784,23 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around; /* Distribute items evenly */
+    justify-content: space-evenly; /* Even spacing between all items */
     align-items: center; /* Align items vertically */
+    width: 100%; /* Ensure the nav bar spans the full width */
 }
 
 nav ul li {
     position: relative;
-    flex: 1; /* Ensures equal space for all items */
-    text-align: center; /* Centers the text in each item */
+    text-align: center; /* Centers text and dropdown content */
 }
 
 nav ul li a {
     text-decoration: none;
     color: inherit;
     display: inline-block;
-    padding: 10px 0; /* Adjust vertical padding */
+    padding: 10px 20px; /* Adjust padding for consistent spacing */
 }
+
 /* Dropdown Arrow */
 nav ul li.dropdown > a::after {
     content: '▼'; /* Down-pointing triangle */
