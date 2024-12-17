@@ -3879,3 +3879,7 @@ html {
     scroll-behavior: smooth;
 }
 
+section.main {
+    background-color: #3d3b38; /* Match the global body background */
+    color: rgba(255, 255, 255, 0.85); /* Ensure text remains visible */
+}
