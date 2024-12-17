@@ -3874,3 +3874,29 @@ section a {
     color: inherit !important; /* Inherit text color */
     text-decoration: none !important;
 }
+
+/* General Section Styling */
+section.main {
+    background-color: #ffffff; /* White background for sections */
+    padding: 50px 20px; /* Add padding for spacing */
+    margin: 0; /* Remove default margin */
+    box-sizing: border-box; /* Ensure padding is included in dimensions */
+    width: 100%;
+}
+
+/* Alternate Background for Visual Continuity */
+section.main:nth-child(even) {
+    background-color: #f4f4f4; /* Light gray for alternating sections */
+}
+
+/* Ensure Full-Width Continuity */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
