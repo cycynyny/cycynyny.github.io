@@ -2646,12 +2646,7 @@ input, select, textarea {
 		}
 
 			header.major h2:after {
-				display: block;
-				content: '';
-				width: 3.25em;
-				height: 2px;
-				margin: 0.7em 0 1em 0;
-				border-radius: 2px;
+				display: none;
 			}
 
 				section.special header.major h2:after, article.special header.major h2:after {
