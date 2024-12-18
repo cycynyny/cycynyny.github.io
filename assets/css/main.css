@@ -3854,3 +3854,57 @@ nav ul li .dropdown-content li a {
 nav ul li .dropdown-content li a:hover {
     background-color: #f0f0f0; /* Light grey background on hover */
 }
+
+/* General Styling for Subsections */
+.teaching-interests, .current-classes, .previous-classes {
+    margin-bottom: 30px;
+}
+
+.teaching-interests h3,
+.current-classes h3,
+.previous-classes h3 {
+    font-size: 1.5rem; /* Slightly smaller than the main title */
+    color: #333; /* Darker for emphasis */
+    margin-bottom: 10px;
+}
+
+.teaching-interests p {
+    font-size: 1.1rem;
+    color: #555; /* Medium gray for text */
+}
+
+/* Class Lists */
+.class-list {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.class-list li {
+    margin-bottom: 15px; /* Spacing between items */
+    line-height: 1.6;
+}
+
+.class-list strong {
+    font-size: 1.1rem; /* Highlight course titles */
+    color: #333; /* Darker for emphasis */
+}
+
+.class-list .details {
+    display: block; /* Place details on a new line */
+    font-size: 0.95rem;
+    color: #666; /* Lighter color for details */
+    margin-top: 5px;
+}
+
+header.major h2 {
+    font-size: 2.5rem; /* Large title size */
+    margin-bottom: 20px;
+    color: #222; /* Darker title color */
+    text-align: center; /* Center align main title */
+}
+
+header.major {
+    border-bottom: 3px solid #6ca0dc; /* Add a colorful underline */
+    padding-bottom: 10px;
+}
