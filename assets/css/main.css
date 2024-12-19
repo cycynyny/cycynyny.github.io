@@ -3906,6 +3906,6 @@ header.major {
 
 .dashed-underline {
     text-decoration: none; /* Remove default underline */
-    border-bottom: 2px dashed #555; /* Dashed underline specifically for this text */
+    border-bottom: 1px dashed #555; /* Dashed underline specifically for this text */
     color: inherit; /* Keep link color same as text */
 }
