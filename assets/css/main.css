@@ -3213,14 +3213,16 @@ input, select, textarea {
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
 		color: #636363;
-		position: fixed;
-    		top: 0;
-    		width: 100%;
-    		padding: 0;
-    		background-color: #333;
-    		z-index: 1000;
-    		box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-		}
+		position: absolute;
+		width: 64em;
+		max-width: calc(100% - 4em);
+		padding: 1em;
+		background-color: #f7f7f7;
+		border-top-left-radius: 0.25em;
+		border-top-right-radius: 0.25em;
+		cursor: default;
+		text-align: center;
+	}
 
 		#nav input, #nav select, #nav textarea {
 			color: #636363;
@@ -3256,21 +3258,20 @@ input, select, textarea {
 		}
 
 		#nav ul {
-			display: flex;
-    			justify-content: space-around;
-    			align-items: center;
-    			margin: 0;
-    			padding: 10px 0;
-    			list-style: none;
-			}
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
 
 			#nav ul li {
 				-moz-transition: margin 0.2s ease;
 				-webkit-transition: margin 0.2s ease;
 				-ms-transition: margin 0.2s ease;
 				transition: margin 0.2s ease;
-				margin: 0;
-				padding: 0 10px;
+				display: inline-block;
+				margin: 0 0.35em;
+				padding: 0;
+				vertical-align: middle;
 			}
 
 				#nav ul li a {
@@ -3278,11 +3279,12 @@ input, select, textarea {
 					-webkit-transition: font-size 0.2s ease;
 					-ms-transition: font-size 0.2s ease;
 					transition: font-size 0.2s ease;
-					    text-decoration: none;
-    					color: white;
-    					padding: 10px 20px;
-    					display: block;
-    					transition: background-color 0.3s ease;
+					display: inline-block;
+					height: 2.25em;
+					line-height: 2.25em;
+					padding: 0 1.25em;
+					border: 0;
+					border-radius: 8px;
 					box-shadow: inset 0 0 0 1px transparent;
 				}
 
@@ -3313,17 +3315,11 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
-@media screen and (max-width: 768px) {
-    #nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
+		@media screen and (max-width: 736px) {
 
-    #nav ul li a {
-        padding: 15px 0;
-    }
-}
-
+			#nav {
+				display: none;
+			}
 
 				#nav + #main {
 					padding-top: 0;
@@ -3912,110 +3908,4 @@ header.major {
     text-decoration: none; /* Remove default underline */
     border-bottom: 1px dashed #555; /* Dashed underline specifically for this text */
     color: inherit; /* Keep link color same as text */
-}
-
-/* Fixed Navigation Bar */
-nav#nav {
-    position: fixed; /* Fixes the navigation bar at the top */
-    top: 0;
-    width: 100%;
-    background-color: #333; /* Choose a color for the navbar background */
-    z-index: 1000; /* Ensures the nav bar stays above other elements */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
-}
-
-nav#nav ul {
-    display: flex; /* Aligns items horizontally */
-    justify-content: space-around; /* Spreads links evenly */
-    list-style: none; /* Removes default bullet points */
-    margin: 0;
-    padding: 10px 0;
-}
-
-nav#nav li {
-    display: inline;
-}
-
-nav#nav a {
-    text-decoration: none;
-    color: white; /* Link text color */
-    padding: 10px 20px;
-    display: block;
-    transition: background-color 0.3s ease;
-}
-
-nav#nav a:hover {
-    background-color: #575757; /* Highlight effect on hover */
-}
-
-body {
-    padding-top: 60px; /* Adjust top padding to avoid overlapping content */
-}
-
-nav#nav a.active {
-    background-color: #444; /* Active link background */
-    font-weight: bold;
-}
-
-@media screen and (max-width: 768px) {
-    nav#nav ul {
-        flex-direction: column; /* Stacks items vertically */
-        align-items: center;
-    }
-}
-
-/* Locate or Add Styles for the nav Element  */
-nav#nav {
-    position: fixed; /* Fix it at the top */
-    top: 0; /* Align to the top of the page */
-    width: 100%; /* Span the full width */
-    background-color: #333; /* Dark background for visibility */
-    z-index: 1000; /* Ensure it stays above other elements */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
-}
-
-nav#nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 10px;
-    display: flex; /* Horizontal alignment */
-    justify-content: space-around; /* Even spacing */
-}
-
-nav#nav li {
-    display: inline;
-}
-
-nav#nav a {
-    text-decoration: none;
-    color: white; /* White text */
-    padding: 10px 20px;
-    display: block;
-    transition: background-color 0.3s ease;
-}
-
-nav#nav a:hover {
-    background-color: #575757; /* Hover effect */
-}
-
-body {
-    padding-top: 60px; /* Prevent content overlap */
-}
-
-/* Highlight Active Section */
-nav#nav a.active {
-    background-color: #444; /* Highlight active link */
-    font-weight: bold;
-}
-
-/* Ensure Responsiveness for Smaller Screens */
-@media (max-width: 768px) {
-    nav#nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav#nav a {
-        padding: 15px 0;
-    }
 }
