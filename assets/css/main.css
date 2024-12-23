@@ -3909,3 +3909,42 @@ header.major {
     border-bottom: 1px dashed #555; /* Dashed underline specifically for this text */
     color: inherit; /* Keep link color same as text */
 }
+
+/* Dropdown */
+nav ul .dropdown-content {
+    display: none; /* Initially hide dropdown */
+    position: absolute; /* Position dropdown below parent */
+    background-color: #333; /* Dropdown background */
+    min-width: 160px; /* Minimum width */
+    z-index: 1; /* Ensure visibility above other content */
+}
+
+/* Show dropdown on hover */
+nav ul .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dropdown link styling */
+nav ul .dropdown-content li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav ul .dropdown-content li a:hover {
+    background-color: #575757; /* Highlight on hover */
+}
+
+/* Active link */
+nav ul li a.active {
+    font-weight: bold; /* Make active link bold */
+    border-bottom: 2px solid #ffffff; /* Add underline for active state */
+}
+
+/* Prevent conflicts with dropdown */
+nav ul .dropdown > a.active {
+    background-color: #575757; /* Optional: background for active dropdown */
+}
+
+
