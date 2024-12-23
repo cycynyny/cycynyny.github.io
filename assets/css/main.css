@@ -3952,3 +3952,10 @@ nav#nav a.active {
     background-color: #444; /* Active link background */
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+    nav#nav ul {
+        flex-direction: column; /* Stacks items vertically */
+        align-items: center;
+    }
+}
