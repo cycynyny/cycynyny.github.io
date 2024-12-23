@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Yang's Homepage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!-- MathJax Configuration -->
+		<script>
+			window.MathJax = {
+				tex: {
+					inlineMath: [['$', '$'], ['\\(', '\\)']],
+					displayMath: [['$$', '$$'], ['\\[', '\\]']]
+				}
+			};
+		</script>
+
+		<!-- MathJax Loader -->
+		<script type="text/javascript" async
+			src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+		</script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+<!-- Nav -->
+<nav id="nav" class="fixed-navbar">
+    <ul>
+        <li><a href="#About">About</a></li>
+        <li class="dropdown">
+            <a href="#Classes">Classes</a>
+            <ul class="dropdown-content">
+                <li><a href="mech208.html">MECH 208</a></li>
+                <li><a href="#">MECH 338</a></li>
+            </ul>
+        </li>
+        <li><a href="#Research">Research</a></li>
+        <li><a href="#Publications">Publications</a></li>
+        <li><a href="#People">People</a></li>
+        <li><a href="#MyHobbies">Hobbies</a></li>
+    </ul>
+</nav>
+
+				
+<!-- Main -->
+<div id="main">
+
+		
+<!-- Classes -->
+<section id="Classes" class="main">
+    <div class="spotlight">
+        <div class="content">
+            <!-- Main Title -->
+            <header class="major">
+                <h2>MECH338 Heat Transfer</h2>
+            </header>
+            <!-- Subsection: Current Classes -->
+            <section id="CurrentClasses" class="current-classes">
+                <h3>Course Description</h3>
+                <ul class="class-list">
+                    <li>
+                        <strong>MECH208 Introduction to Technical Computing</strong>
+                        <span class="details">Fall 2024</span>
+                        <span class="details">Course Description: This course introduces technical computing for engineering, focusing on the application of MATLAB to solve engineering problems. 
+                            Topics include kinematics and kinetics, fluid flow, thermal systems, and fundamentals of machine learning. 
+                            The course consists of 1 hour of lecture and 3 hours of laboratory work each week.</span>
+                    </li>
+                    <li>
+                        <strong>MECH338 Heat Transfer</strong>
+                        <span class="details">Fall 2024</span>
+                        <span class="details">Course Description: This course explores steady-state and transient (unsteady) heat conduction in one and two dimensions. 
+                            It introduces numerical methods such as finite-difference and finite-element analysis. 
+                            Additionally, the course covers free and forced convection, along with radiation heat transfer.</span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</section>
+
+					
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script>
+    document.addEventListener("scroll", function () {
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll("#nav ul li a");
+
+    let current = "";
+
+    sections.forEach((section) => {
+        const sectionTop = section.offsetTop - 50; // Adjust for fixed navbar
+        const sectionHeight = section.offsetHeight;
+
+        if (pageYOffset >= sectionTop && pageYOffset < sectionTop + sectionHeight) {
+            current = section.getAttribute("id");
+        }
+    });
+
+    navLinks.forEach((link) => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === `#${current}`) {
+            link.classList.add("active");
+        }
+    });
+});
+</script>
+
+
+</body>
+</html>
+
+					
