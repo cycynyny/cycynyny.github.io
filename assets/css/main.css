@@ -3948,3 +3948,7 @@ body {
     padding-top: 60px; /* Adjust top padding to avoid overlapping content */
 }
 
+nav#nav a.active {
+    background-color: #444; /* Active link background */
+    font-weight: bold;
+}
