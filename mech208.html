@@ -1,142 +1,40 @@
-<!DOCTYPE HTML>
-<!--
-    Stellar by HTML5 UP
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-<head>
-    <title>MECH208 - Yang Chao</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<li>
+    <strong>MECH208 Introduction to Technical Computing</strong>
+    <span class="details">Fall 2024</span>
 
-    <!-- MathJax Configuration -->
-    <script>
-        window.MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']],
-                displayMath: [['$$', '$$'], ['\\[', '\\]']]
-            }
-        };
-    </script>
+    <div style="margin-top: 10px;">
+        <h4>Course Description</h4>
+        <p>
+            This course introduces technical computing for engineering, focusing on the application of MATLAB to solve engineering problems. Topics include:
+        </p>
+        <ul>
+            <li>Kinematics and Kinetics</li>
+            <li>Fluid Flow</li>
+            <li>Thermal Systems</li>
+            <li>Fundamentals of Machine Learning</li>
+        </ul>
+        <p>
+            The course consists of 1 hour of lecture and 3 hours of laboratory work each week.
+        </p>
 
-    <!-- MathJax Loader -->
-    <script type="text/javascript" async
-        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
-</head>
-<body class="is-preload">
+        <h4>Course Objectives</h4>
+        <p>By the end of this course, students will be able to:</p>
+        <ul>
+            <li>Use MATLAB to model and solve engineering problems.</li>
+            <li>Understand and apply numerical methods for engineering applications.</li>
+            <li>Analyze and visualize data effectively using MATLAB tools.</li>
+            <li>Develop technical computing skills for future coursework and careers.</li>
+        </ul>
 
-<!-- Wrapper -->
-<div id="wrapper">
-
-<!-- Nav -->
-<nav id="nav" class="fixed-navbar">
-    <ul>
-        <li><a href="index.html#About">About</a></li>
-        <li class="dropdown">
-            <a href="index.html#Classes">Classes</a>
-            <ul class="dropdown-content">
-                <li><a href="mech208.html">MECH 208</a></li>
-                <li><a href="#">MECH 338</a></li>
-            </ul>
-        </li>
-        <li><a href="index.html#Research">Research</a></li>
-        <li><a href="index.html#Publications">Publications</a></li>
-        <li><a href="index.html#People">People</a></li>
-        <li><a href="index.html#MyHobbies">Hobbies</a></li>
-    </ul>
-</nav>
-
-<!-- Main -->
-<div id="main">
-
-<!-- Classes -->
-<section id="Classes" class="main">
-    <div class="spotlight">
-        <div class="content">
-            <header class="major">
-                <h2>MECH208 Introduction to Technical Computing</h2>
-            </header>
-
-            <article id="CurrentClasses" class="current-classes">
-                <h3>Course Description</h3>
-                <p>
-                    This course introduces technical computing for engineering, focusing on the application of MATLAB to solve engineering problems. Topics include:
-                </p>
-                <ul>
-                    <li>Kinematics and Kinetics</li>
-                    <li>Fluid Flow</li>
-                    <li>Thermal Systems</li>
-                    <li>Fundamentals of Machine Learning</li>
-                </ul>
-                <p>
-                    The course consists of 1 hour of lecture and 3 hours of laboratory work each week.
-                </p>
-
-                <h3>Course Objectives</h3>
-                <p>
-                    By the end of this course, students will be able to:
-                </p>
-                <ul>
-                    <li>Use MATLAB to model and solve engineering problems.</li>
-                    <li>Understand and apply numerical methods for engineering applications.</li>
-                    <li>Analyze and visualize data effectively using MATLAB tools.</li>
-                    <li>Develop technical computing skills for future coursework and careers.</li>
-                </ul>
-
-                <h3>Recommended Textbooks</h3>
-                <p>
-                    Suggested readings and references for this course:
-                </p>
-                <ul>
-                    <li><em>Introduction to MATLAB for Engineers</em> by William J. Palm (ISBN: 9780073534879, McGraw-Hill Education, 2010).</li>
-                    <li><em>Numerical Methods for Engineers</em> by Steven C. Chapra and Raymond P. Canale.</li>
-                </ul>
-            </article>
-        </div>
+        <h4>Recommended Textbooks</h4>
+        <ul>
+            <li>
+                <em>Introduction to MATLAB for Engineers</em> by William J. Palm 
+                (ISBN: 9780073534879, McGraw-Hill Education, 2010).
+            </li>
+            <li>
+                <em>Numerical Methods for Engineers</em> by Steven C. Chapra and Raymond P. Canale.
+            </li>
+        </ul>
     </div>
-</section>
-
-</div> <!-- End of #main -->
-
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
-
-<!-- Optional scroll indicator script (safe to keep) -->
-<script>
-    document.addEventListener("scroll", function () {
-        const sections = document.querySelectorAll("section");
-        const navLinks = document.querySelectorAll("#nav ul li a");
-
-        let current = "";
-
-        sections.forEach((section) => {
-            const sectionTop = section.offsetTop - 50;
-            const sectionHeight = section.offsetHeight;
-
-            if (pageYOffset >= sectionTop && pageYOffset < sectionTop + sectionHeight) {
-                current = section.getAttribute("id");
-            }
-        });
-
-        navLinks.forEach((link) => {
-            link.classList.remove("active");
-            if (link.getAttribute("href") === `#${current}`) {
-                link.classList.add("active");
-            }
-        });
-    });
-</script>
-
-</div> <!-- End of #wrapper -->
-</body>
-</html>
+</li>
