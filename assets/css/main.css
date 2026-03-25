@@ -3895,11 +3895,6 @@ header.major h2 {
     text-align: center; /* Center align main title */
 }
 
-header.major {
-    border-bottom: 3px solid #6ca0dc; /* Add a colorful underline */
-    padding-bottom: 10px;
-}
-
 .dashed-underline {
     text-decoration: none; /* Remove default underline */
     border-bottom: 1px dashed #555; /* Dashed underline specifically for this text */
