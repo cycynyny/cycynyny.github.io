@@ -3660,7 +3660,7 @@ input, select, textarea {
 			}
 
 				#main > .main {
-					padding: 2.5em 1em 0.5em 1em ;
+					padding: 2em 1em 0.75em 1em;
 				}
 
 					#main > .main > .image.main:first-child {
