@@ -3577,7 +3577,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 2.5em 3em 1.5em 3em;
 			border-top: solid 1px #dddddd;
 		}
 
@@ -3604,7 +3604,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
-				padding: 4em 4em 2em 4em ;
+				padding: 3em 3em 1.5em 3em;
 			}
 
 				#main > .main > .image.main:first-child {
