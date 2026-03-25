@@ -2639,6 +2639,8 @@ input, select, textarea {
 
 	header.major {
 		margin-bottom: 1.5em;
+		border-bottom: 3px solid #6ca0dc;
+		padding-bottom: 10px;
 	}
 
 		header.major h2 {
