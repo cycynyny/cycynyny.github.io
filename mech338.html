@@ -78,6 +78,260 @@
             </div>
         </section>
 
+        <!-- Interactive Simulations Section -->
+        <section class="main" id="simulations">
+            <header class="major">
+                <h2>Interactive Simulations</h2>
+            </header>
+
+            <div class="course-block">
+                <p>These simulations are designed to build physical intuition for concepts covered in MECH 338. Each one lets you manipulate parameters in real time and observe the governing equations in action.</p>
+
+                <!-- Simulation 1 -->
+                <h3><strong>Simulation 1: 1D Transient Heat Diffusion</strong></h3>
+                <p>
+                    Visualizes the 1D transient heat conduction equation:
+                    $$\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}$$
+                    The top panel shows the temperature profile evolving over time. The bottom panel shows the second derivative ∂²T/∂x² at each point — the quantity that drives the temperature change. Orange bars indicate points that are warming; blue bars indicate points that are cooling. The two diamond markers on the temperature plot show exactly where the second derivative changes sign, i.e., the boundary between warming and cooling regions.
+                </p>
+                <p>Use the controls to select different initial conditions and thermal diffusivity values. Observe how a higher α causes the profile to flatten faster at the same physical time.</p>
+
+                <div id="sim1-container" style="background:#f9f9f9; border:1px solid #ddd; border-radius:6px; padding:1.5rem; margin-top:1rem;">
+
+                    <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:1.5rem; align-items:center;">
+                        <div style="display:flex; align-items:center; gap:10px;">
+                            <label style="font-size:13px;">Initial condition</label>
+                            <select id="icSelect" style="font-size:13px;">
+                                <option value="gaussian">Gaussian bump</option>
+                                <option value="spike">Hot spike</option>
+                                <option value="trough">Cold trough</option>
+                                <option value="step">Step function</option>
+                            </select>
+                        </div>
+                        <div style="display:flex; align-items:center; gap:10px;">
+                            <label style="font-size:13px;">α</label>
+                            <select id="alphaSelect" style="font-size:13px;">
+                                <option value="0.01">0.01 — slow</option>
+                                <option value="0.05">0.05 — medium</option>
+                                <option value="0.25">0.25 — fast</option>
+                            </select>
+                        </div>
+                        <button id="resetBtn" style="font-size:13px; padding:4px 14px; cursor:pointer;">Reset ↺</button>
+                        <button id="playBtn" style="font-size:13px; padding:4px 14px; cursor:pointer;">Play ▶</button>
+                    </div>
+
+                    <div style="font-size:12px; color:#666; margin-bottom:6px;">
+                        Temperature T(x) &nbsp;·&nbsp; <span style="font-weight:500;">◆ = where ∂²T/∂x² changes sign</span>
+                    </div>
+                    <div id="wrapT" style="width:100%; position:relative;">
+                        <canvas id="canvasT" style="display:block; width:100%;"></canvas>
+                    </div>
+
+                    <div style="font-size:12px; color:#666; margin-bottom:4px; margin-top:1.5rem;">
+                        Second derivative ∂²T/∂x² &nbsp;·&nbsp;
+                        <span style="color:#D85A30; font-weight:500;">positive → warms</span> &nbsp;·&nbsp;
+                        <span style="color:#378ADD; font-weight:500;">negative → cools</span>
+                    </div>
+                    <div id="wrapD2" style="width:100%; position:relative;">
+                        <canvas id="canvasD2" style="display:block; width:100%;"></canvas>
+                    </div>
+
+                    <div style="display:flex; gap:16px; flex-wrap:wrap; margin-top:1rem;">
+                        <div style="background:#fff; border:1px solid #ddd; border-radius:4px; padding:0.6rem 1rem; min-width:100px;">
+                            <div style="font-size:11px; color:#888; margin-bottom:3px;">Physical time</div>
+                            <div id="timeDisplay" style="font-size:18px; font-weight:500;">0.0000</div>
+                        </div>
+                        <div style="background:#fff; border:1px solid #ddd; border-radius:4px; padding:0.6rem 1rem; min-width:100px;">
+                            <div style="font-size:11px; color:#888; margin-bottom:3px;">Peak T (°C)</div>
+                            <div id="peakDisplay" style="font-size:18px; font-weight:500;">—</div>
+                        </div>
+                    </div>
+                    <div style="font-size:13px; color:#555; line-height:1.6; margin-top:1rem;" id="annotation"></div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+        (function() {
+            const N = 80;
+            const dx = 1 / (N - 1);
+            const DT_TARGET = 0.0005;
+            const T_BG = 20, T_PEAK = 100;
+            const PL = 44, PR = 12, PT = 14, PB = 26;
+            const H_T = 190, H_D2 = 160;
+
+            let T = [], T0 = [], d2Fixed = 1;
+            let physTime = 0, animId = null, playing = false;
+
+            const annotations = {
+                gaussian: "Gaussian bump: the peak is hotter than its neighbors (negative second derivative, blue) so it cools. The shoulders are cooler than average (positive, orange) so they warm. The markers show exactly where this flips.",
+                spike: "Hot spike: extreme curvature at one point drives very rapid initial cooling. Watch the peak value drop quickly, then slow as the profile spreads and curvature decreases.",
+                trough: "Cold trough: the center is cooler than its neighbors (positive second derivative, orange) so it warms. The warm shoulders are hotter than average (blue) so they cool.",
+                step: "Step function: second derivative is nearly zero everywhere except at the interface. Only the interface evolves. Watch the single marker stay fixed while the interface smears symmetrically around it."
+            };
+
+            function makeIC(type) {
+                const T = new Array(N).fill(T_BG);
+                if (type === 'spike') { T[Math.round(N/2)] = T_PEAK; }
+                else if (type === 'trough') { T.fill(T_PEAK); T[Math.round(N/2)] = T_BG; }
+                else if (type === 'step') { for (let i=0;i<N/2;i++) T[i]=T_PEAK; }
+                else { for (let i=0;i<N;i++) { const xi=i/(N-1); T[i]=T_BG+(T_PEAK-T_BG)*Math.exp(-Math.pow(xi-0.5,2)/0.02); } }
+                return T;
+            }
+
+            function computeD2(T) {
+                const d2 = new Array(N).fill(0);
+                for (let i=1;i<N-1;i++) d2[i]=(T[i-1]-2*T[i]+T[i+1])/(dx*dx);
+                return d2;
+            }
+
+            function findCrossings(d2) {
+                const idx = [];
+                for (let i=1;i<N-1;i++) if (d2[i-1]*d2[i]<0) idx.push(i);
+                return idx;
+            }
+
+            function advanceByTime(T, alpha, targetDt) {
+                const maxDt=0.4*dx*dx/alpha, nSteps=Math.ceil(targetDt/maxDt), dt=targetDt/nSteps;
+                for (let s=0;s<nSteps;s++) {
+                    const Tn=[...T];
+                    for (let i=1;i<N-1;i++) { const d2T=(T[i-1]-2*T[i]+T[i+1])/(dx*dx); Tn[i]=T[i]+alpha*dt*d2T; }
+                    Tn[0]=T_BG; Tn[N-1]=T_BG; T=Tn;
+                }
+                return T;
+            }
+
+            function getAlpha() { return parseFloat(document.getElementById('alphaSelect').value); }
+
+            function setupCanvas(canvas, h) {
+                const w = canvas.parentElement.getBoundingClientRect().width || 600;
+                canvas.width = w; canvas.height = h;
+                return {w, h};
+            }
+
+            function xToPixel(i, W) { return PL + (i/(N-1))*(W-PL-PR); }
+            function tToPixel(v, H) { return PT + (1-v/110)*(H-PT-PB); }
+
+            function drawT() {
+                const canvas = document.getElementById('canvasT');
+                const {w:W, h:H} = setupCanvas(canvas, H_T);
+                const ctx = canvas.getContext('2d');
+                ctx.clearRect(0,0,W,H);
+                const pw=W-PL-PR, ph=H-PT-PB;
+
+                ctx.strokeStyle='rgba(128,128,128,0.15)'; ctx.lineWidth=0.5;
+                [0,25,50,75,100].forEach(v => {
+                    const y=tToPixel(v,H);
+                    ctx.beginPath(); ctx.moveTo(PL,y); ctx.lineTo(PL+pw,y); ctx.stroke();
+                });
+                [0,0.25,0.5,0.75,1.0].forEach(f => {
+                    const x=PL+f*pw;
+                    ctx.beginPath(); ctx.moveTo(x,PT); ctx.lineTo(x,PT+ph); ctx.stroke();
+                });
+
+                ctx.fillStyle='rgba(100,100,100,0.9)'; ctx.font='10px sans-serif';
+                ctx.textAlign='right'; ctx.textBaseline='middle';
+                [0,25,50,75,100].forEach(v => ctx.fillText(v,PL-5,tToPixel(v,H)));
+                ctx.textAlign='center'; ctx.textBaseline='top';
+                [0,0.25,0.5,0.75,1.0].forEach(f => ctx.fillText(f.toFixed(2),PL+f*pw,PT+ph+4));
+
+                ctx.save(); ctx.setLineDash([4,3]);
+                ctx.strokeStyle='rgba(180,178,169,0.7)'; ctx.lineWidth=1.2;
+                ctx.beginPath();
+                for (let i=0;i<N;i++) { const x=xToPixel(i,W),y=tToPixel(T0[i],H); i===0?ctx.moveTo(x,y):ctx.lineTo(x,y); }
+                ctx.stroke(); ctx.restore();
+
+                ctx.strokeStyle='#378ADD'; ctx.lineWidth=2; ctx.setLineDash([]);
+                ctx.beginPath();
+                for (let i=0;i<N;i++) { const x=xToPixel(i,W),y=tToPixel(T[i],H); i===0?ctx.moveTo(x,y):ctx.lineTo(x,y); }
+                ctx.stroke();
+
+                const d2=computeD2(T);
+                findCrossings(d2).forEach(idx => {
+                    const x=xToPixel(idx,W), y=tToPixel(T[idx],H), r=7;
+                    ctx.save(); ctx.translate(x,y); ctx.rotate(Math.PI/4);
+                    ctx.fillStyle='#1a1a1a'; ctx.beginPath(); ctx.rect(-r/2,-r/2,r,r); ctx.fill();
+                    ctx.strokeStyle='#fff'; ctx.lineWidth=1.5; ctx.stroke(); ctx.restore();
+                });
+
+                ctx.save(); ctx.translate(13,PT+ph/2); ctx.rotate(-Math.PI/2);
+                ctx.fillStyle='rgba(100,100,100,0.9)'; ctx.font='11px sans-serif';
+                ctx.textAlign='center'; ctx.textBaseline='middle';
+                ctx.fillText('T (°C)',0,0); ctx.restore();
+            }
+
+            function drawD2() {
+                const canvas = document.getElementById('canvasD2');
+                const {w:W, h:H} = setupCanvas(canvas, H_D2);
+                const ctx = canvas.getContext('2d');
+                ctx.clearRect(0,0,W,H);
+                const pw=W-PL-PR, ph=H-PT-PB;
+
+                const d2=computeD2(T);
+                const yScale=v=>PT+(1-(v+d2Fixed)/(2*d2Fixed))*ph;
+                const y0=yScale(0);
+
+                ctx.strokeStyle='rgba(128,128,128,0.15)'; ctx.lineWidth=0.5;
+                ctx.beginPath(); ctx.moveTo(PL,y0); ctx.lineTo(PL+pw,y0); ctx.stroke();
+                [0,0.25,0.5,0.75,1.0].forEach(f => {
+                    const x=PL+f*pw;
+                    ctx.beginPath(); ctx.moveTo(x,PT); ctx.lineTo(x,PT+ph); ctx.stroke();
+                });
+
+                const barW=pw/(N-1);
+                for (let i=0;i<N;i++) {
+                    const cx=xToPixel(i,W), v=d2[i];
+                    const barTop=v>=0?yScale(v):y0, barH=Math.abs(yScale(v)-y0);
+                    ctx.fillStyle=v>=0?'rgba(216,90,48,0.8)':'rgba(55,138,221,0.8)';
+                    ctx.fillRect(cx-barW/2,barTop,barW,barH);
+                }
+
+                ctx.fillStyle='rgba(100,100,100,0.9)'; ctx.font='10px sans-serif';
+                ctx.textAlign='center'; ctx.textBaseline='top';
+                [0,0.25,0.5,0.75,1.0].forEach(f => ctx.fillText(f.toFixed(2),PL+f*pw,PT+ph+4));
+
+                ctx.save(); ctx.translate(13,PT+ph/2); ctx.rotate(-Math.PI/2);
+                ctx.fillStyle='rgba(100,100,100,0.9)'; ctx.font='11px sans-serif';
+                ctx.textAlign='center'; ctx.textBaseline='middle';
+                ctx.fillText('∂²T/∂x²',0,0); ctx.restore();
+            }
+
+            function render() {
+                drawT(); drawD2();
+                document.getElementById('timeDisplay').textContent = physTime.toFixed(4);
+                document.getElementById('peakDisplay').textContent = Math.round(Math.max(...T));
+            }
+
+            function reset() {
+                if (animId) cancelAnimationFrame(animId);
+                playing = false; document.getElementById('playBtn').textContent = 'Play ▶';
+                const type = document.getElementById('icSelect').value;
+                T = makeIC(type); T0 = [...T]; physTime = 0;
+                const d2i = computeD2(T);
+                d2Fixed = Math.max(...d2i.map(Math.abs), 1) * 1.2;
+                render();
+                document.getElementById('annotation').textContent = annotations[type];
+            }
+
+            function runFrame() {
+                T = advanceByTime(T, getAlpha(), DT_TARGET);
+                physTime += DT_TARGET; render();
+                if (physTime < 2.0 && playing) animId = requestAnimationFrame(runFrame);
+                else { playing = false; document.getElementById('playBtn').textContent = 'Play ▶'; }
+            }
+
+            document.getElementById('playBtn').addEventListener('click', () => {
+                if (playing) { playing=false; cancelAnimationFrame(animId); document.getElementById('playBtn').textContent='Play ▶'; }
+                else { playing=true; document.getElementById('playBtn').textContent='Pause ⏸'; runFrame(); }
+            });
+            document.getElementById('resetBtn').addEventListener('click', reset);
+            document.getElementById('icSelect').addEventListener('change', reset);
+            document.getElementById('alphaSelect').addEventListener('change', reset);
+
+            setTimeout(reset, 150);
+        })();
+        </script>
+
     </div> <!-- End of #main -->
 
     <!-- Footer -->
