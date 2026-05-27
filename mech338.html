@@ -332,6 +332,41 @@
         })();
         </script>
 
+        <!-- Explanation Section -->
+        <section class="main" id="explanation">
+            <header class="major">
+                <h2>Explanation</h2>
+            </header>
+
+            <div class="course-block">
+
+                <h3><strong>How to Read the Simulation</strong></h3>
+                <p>
+                    The top panel shows the temperature profile T(x) at the current time (blue line) and the initial profile (gray dashed line). The bottom panel shows the second derivative ∂²T/∂x² at every point — orange where positive, blue where negative. The two diamond markers on the temperature plot sit at the exact x-locations where the second derivative changes sign. Everything between the markers is cooling; everything outside is warming.
+                </p>
+
+                <h3><strong>The Heat Equation</strong></h3>
+                <p>
+                    The simulation solves the 1D transient heat conduction equation:
+                    $$\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}$$
+                    The left side is the rate of temperature change at a point over time. The right side says that rate is proportional to the local curvature of the temperature profile. If the profile curves downward at a point (peak), that point cools. If it curves upward (trough), that point warms. A flat region does not change.
+                </p>
+
+                <h3><strong>The Second Derivative</strong></h3>
+                <p>
+                    The second derivative answers one question at every point: is this point hotter or cooler than the average of its two neighbors? Using the finite difference approximation:
+                    $$\frac{\partial^2 T}{\partial x^2} \approx \frac{T_{i-1} - 2T_i + T_{i+1}}{\Delta x^2}$$
+                    If $T_i$ is hotter than the average of $T_{i-1}$ and $T_{i+1}$, the numerator is negative — so $\partial T/\partial t < 0$ and the point cools. If $T_i$ is cooler than its neighbors, the second derivative is positive and the point warms. The two markers sit where this quantity is exactly zero — the boundary between the cooling and warming regions.
+                </p>
+
+                <h3><strong>Thermal Diffusivity &alpha;</strong></h3>
+                <p>
+                    Thermal diffusivity $\alpha = k / (\rho c_p)$ controls how fast a material responds to temperature gradients. A high $\alpha$ means heat spreads quickly — the profile flattens in less physical time. A low $\alpha$ means the material resists thermal equilibration. In the simulation, all three $\alpha$ values are advanced by the same physical time per frame, so the difference in flattening rate is entirely due to $\alpha$. Metals such as copper have high $\alpha$; insulating materials such as wood have low $\alpha$.
+                </p>
+
+            </div>
+        </section>
+
     </div> <!-- End of #main -->
 
     <!-- Footer -->
