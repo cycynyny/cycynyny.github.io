@@ -89,7 +89,43 @@ Professors do research in the lab. I also do research in my kitchen. Cooking kee
     <p style="font-size:0.85em; margin-top:6px;">火腿蛋炒饭<br>Ham and Egg Fried Rice</p>
   </div>
 
+  <div style="min-width: 260px; text-align: center;">
+    <img src="/images/food/bibimbap.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;">韩式拌饭<br>Bibimbap</p>
+  </div>
+
+  <div style="min-width: 260px; text-align: center;">
+    <img src="/images/food/braised-pork-with-potatoes.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;">土豆烧牛肉<br>Braised Beef with Potatoes</p>
+  </div>
+
+  <div style="min-width: 260px; text-align: center;">
+    <img src="/images/food/calamansi-chicken.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;">青柠蒜香鸡<br>Citrus Garlic Chicken</p>
+  </div>
+
+  <div style="min-width: 260px; text-align: center;">
+    <img src="/images/food/mouthwatering-chicken.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;">口水鸡<br>Sichuan Mouth-Watering Chicken</p>
+  </div>
+
+  <div style="min-width: 260px; text-align: center;">
+    <img src="/images/food/scallion-oil-chicken.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;">葱油鸡<br>Scallion Oil Chicken</p>
+  </div>
+
+  <div style="min-width: 260px; text-align: center;">
+    <img src="/images/food/spicy-shredded-chicken.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;">椒麻手撕鸡<br>Shredded Spicy Chicken</p>
+  </div>
+
+  <div style="min-width: 260px; text-align: center;">
+    <img src="/images/food/twice-cooked-pork.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;">回锅肉<br>Twice-Cooked Pork</p>
+  </div>
+
 </div>
+
 ---
 
 ## Travel
