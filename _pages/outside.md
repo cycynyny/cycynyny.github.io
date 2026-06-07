@@ -25,16 +25,29 @@ I think about AI regularly -- both as a tool in my research and teaching, and as
 
 I cook Chinese food regularly -- it's one of the ways I stay connected to home. Here are some recent dishes.
 
-<table>
-<tr>
-<td style="text-align:center; padding:8px;"><img src="/images/food/beef-stir-fry.jpg" width="300"><br>青椒牛肉 Beef and Green Pepper Stir Fry</td>
-<td style="text-align:center; padding:8px;"><img src="/images/food/lamb-chops.jpg" width="300"><br>烤羊排 Roasted Lamb Chops</td>
-</tr>
-<tr>
-<td style="text-align:center; padding:8px;"><img src="/images/food/noodle-bowl.jpg" width="300"><br>笋丝拌面 Noodles with Braised Bamboo Shoots</td>
-<td style="text-align:center; padding:8px;"><img src="/images/food/fried-rice.jpg" width="300"><br>火腿蛋炒饭 Ham and Egg Fried Rice</td>
-</tr>
-</table>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 16px;">
+
+  <div>
+    <img src="/images/food/beef-stir-fry.jpg" alt="Beef Stir Fry" style="width:100%; border-radius:8px;">
+    <p style="text-align:center; font-size:0.9em;">青椒牛肉 Beef and Green Pepper Stir Fry</p>
+  </div>
+
+  <div>
+    <img src="/images/food/lamb-chops.jpg" alt="Roasted Lamb Chops" style="width:100%; border-radius:8px;">
+    <p style="text-align:center; font-size:0.9em;">烤羊排 Roasted Lamb Chops</p>
+  </div>
+
+  <div>
+    <img src="/images/food/noodle-bowl.jpg" alt="Noodle Bowl" style="width:100%; border-radius:8px;">
+    <p style="text-align:center; font-size:0.9em;">笋丝拌面 Noodles with Braised Bamboo Shoots</p>
+  </div>
+
+  <div>
+    <img src="/images/food/fried-rice.jpg" alt="Fried Rice" style="width:100%; border-radius:8px;">
+    <p style="text-align:center; font-size:0.9em;">火腿蛋炒饭 Ham and Egg Fried Rice</p>
+  </div>
+
+</div>
 ---
 
 ## Travel
