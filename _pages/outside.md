@@ -30,7 +30,7 @@ I cook Chinese food regularly -- it's one of the ways I stay connected to home. 
 | ![Beef Stir Fry](/images/food/beef-stir-fry.jpg) | ![Roasted Lamb Chops](/images/food/lamb-chops.jpg) |
 | 青椒牛肉 Beef and Green Pepper Stir Fry | 烤羊排 Roasted Lamb Chops |
 | ![Noodle Bowl](/images/food/noodle-bowl.jpg) | ![Fried Rice](/images/food/fried-rice.jpg) |
-| 笋丝拌面 Noodle Bowl | 炒饭 Fried Rice |
+| 笋丝拌面 Noodles with Braised Bamboo Shoots | 火腿蛋炒饭 Ham and Egg Fried Rice |
 ---
 
 ## Travel
