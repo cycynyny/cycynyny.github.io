@@ -7,8 +7,6 @@ author_profile: true
 
 ## Reading
 
-**Currently reading:**
-
 <div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
 
   <div style="min-width: 160px; text-align: center;">
