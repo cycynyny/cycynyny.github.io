@@ -28,7 +28,7 @@ author:
   bio              : "Assistant Professor in Mechanical Engineering."
   location         : "Chico, CA"
   employer         : "California State University, Chico"
-  uri              : https://www.csuchico.edu/
+  uri              : # URL
   email            : "ychao@csuchico.edu" 
 
   # Academic websites
