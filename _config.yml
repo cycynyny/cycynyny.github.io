@@ -26,8 +26,8 @@ author:
   name             : "Yang Chao"
   pronouns         : # example: "he/him"  
   bio              : "Assistant Professor in Mechanical Engineering."
-  location         : "Chico, CA"
-  employer         : "California State University, Chico"
+  location         : 
+  employer         : "California State University Chico"
   uri              : # URL
   email            : "ychao@csuchico.edu" 
 
