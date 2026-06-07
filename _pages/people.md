@@ -20,7 +20,7 @@ I work with undergraduate students on projects in heat transfer, CFD, aerospace 
 | Saira Gill | B.S. Mechatronic Engineering | Fin flutter and elliptical fin design |
 | Alex Chavez | B.S. Mechanical Engineering | Fin flutter and modal analysis |
 | Enrique Borgzinner | B.S. Mechanical Engineering | Apogee prediction modeling |
-| Pablo Adame | B.S. Mechanical Engineering | Rocketry simulation lead |
+| Pablo Adame | B.S. Mechanical Engineering | Simulation lead |
 
 ---
 
@@ -31,16 +31,16 @@ I work with undergraduate students on projects in heat transfer, CFD, aerospace 
 | Forest Siewert | B.S. Mechanical Engineering, CSUC 2025 | Ph.D. student, University of Utah |
 | Samaher Shaheen | B.S. Mechanical Engineering, CSUC 2025 | M.S. student, University of Utah |
 | Edmond Agopian | B.S. Mechanical Engineering, CSUC 2026 | M.S. student, University of Colorado Boulder |
-| Benjamin Nelson | B.S. Mechanical Engineering, CSUC | NASA Marshall Space Flight Center intern (Summer 2025) |
-| Elizabeth Rodriguez | B.S. Computer Science, CSUC | NSF REU, Johns Hopkins University (Summer 2025) |
-| David Nguiffo | B.S. Mechanical Engineering, CSUC | Ph.D. applicant, Embry-Riddle Aeronautical University |
-| Kevin Walsh | M.S. Mechanical Engineering, ERAU | Quality Engineer, Boeing |
+| Benjamin Nelson | B.S. Mechanical Engineering, CSUC 2026 | NASA Marshall Space Flight Center intern (Summer 2025) |
+| Elizabeth Rodriguez | B.S. Computer Science, CSUC 2026 | NSF REU, Johns Hopkins University (Summer 2025) |
+| David Nguiffo | B.S. Mechanical Engineering, CSUC 2026 | Ph.D. applicant, Embry-Riddle Aeronautical University |
+| Kevin Walsh | M.S. Mechanical Engineering, ERAU 2025 | Quality Engineer, Boeing |
 
 ---
 
 ## Collaborators
 
-- **Dennis O'Connor** -- Primary advisor, CRAC; CSU Chico
+- **Dennis O'Connor** -- Primary advisor of CRAC and key collaborator; Chico State
 - **Sandra K.S. Boetcher** -- Ph.D. advisor; Embry-Riddle Aeronautical University
+- **Mark A. Ricklick** -- Ph.D. committee member; Embry-Riddle Aeronautical University
 - **Nicholas C. Lopes** -- Ph.D. collaborator; Embry-Riddle Aeronautical University
-- **Mark A. Ricklick** -- Ph.D. committee; Embry-Riddle Aeronautical University
