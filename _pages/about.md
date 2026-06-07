@@ -17,10 +17,10 @@ I earned my B.S. in Aerospace Engineering from the Civil Aviation University of 
 ## News
 
 - **Jun 2026** -- Attending IREC 2026 (Midland, TX) with CRAC as faculty advisor.
-- **Jun 2026** -- Three papers accepted to ASME IMECE 2026 and one to AIAA ASCEND 2026.
-- **May 2026** -- PERM certified; EB-2 I-140 filing in progress.
-- **May 2026** -- CRAC secured the CSU Governor's Award: Launchpad Chico partnership with Chico High School ($11,590).
-- **Mar 2026** -- Four student projects selected as top-10 presenters at the 2026 Chico State Student Research Symposium, advancing to the CSU Statewide Competition at San Jose State.
+- **May 2026** -- Presented at the AIAA ASCEND 2026 Conference.
+- **May 2026** -- Awarded the 2026-2027 CSU RSCA Grant ($7,656).
+- **Apr 2026** -- Awarded the University Foundation Governors' Award ($11,590).
+- **Mar 2026** -- Selected to attend the CSU Statewide Student Research Symposium Competition at San Jose State.
 - **Aug 2024** -- Joined CSU Chico as Assistant Professor.
 
 ## Research Interests
@@ -35,4 +35,4 @@ I earned my B.S. in Aerospace Engineering from the Civil Aviation University of 
 
 - **MECH 208 -- Introduction to Technical Computing** -- MATLAB programming, numerical methods, and engineering computation (offered every semester since Fall 2024)
 - **MECH 338 -- Heat Transfer** -- Conduction, convection, radiation, and engineering applications (offered every semester since Fall 2024)
-- **MECH 498 -- Introduction to Aerospace Propulsion** -- New elective launching Fall 2026; mechanics and thermodynamics of air-breathing and rocket propulsion systems
+- **MECH 498 -- Introduction to Aerospace Propulsion** -- New technical elective launching Fall 2026; mechanics and thermodynamics of air-breathing and rocket propulsion systems
