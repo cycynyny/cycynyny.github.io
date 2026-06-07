@@ -10,7 +10,16 @@ redirect_from:
 
 I am an **Assistant Professor** in the Department of Mechanical and Mechatronic Engineering and Advanced Manufacturing at [California State University, Chico](https://www.csuchico.edu/). My interests include **thermal-fluid sciences**, **aerospace systems**, and **engineering education**, with an emphasis on computational modeling, experimental methods, and AI-enhanced learning. I co-advise the **Chico Rocketry and Aerospace Club (CRAC)**, where students design, analyze, and test high-powered rocket systems.
 
-I received my **B.S. in Aerospace Engineering** from the **Civil Aviation University of China** (2018), and my **M.S. (2020)** and **Ph.D. (2024)** in Aerospace and Mechanical Engineering from **Embry-Riddle Aeronautical University**.
+## Education
+
+- Ph.D. in Mechanical Engineering, **Embry-Riddle Aeronautical University**, USA (2024)
+  - Advisor: Prof. Sandra K.S. Boetcher
+  - Dissertation: "A Comprehensive Numerical Investigation of Heat Transfer Dynamics in Supercritical Carbon Dioxide Cooling"
+
+- M.S. in Aerospace Engineering, **Embry-Riddle Aeronautical University**, USA (2020)
+  - Graduate With Distinction
+
+- B.S. in Aerospace Engineering, **Civil Aviation University of China**, China (2018)
 
 ## News
 
