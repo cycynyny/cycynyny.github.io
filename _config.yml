@@ -23,7 +23,7 @@ repository               : "cycynyny/cycynyny.github.io"
 author:
   # Biographic information
   avatar           : "Self.jpg"
-  name             : "Yang Chao"
+  name             : # URL
   pronouns         : # example: "he/him"  
   bio              : # URL
   location         : 
