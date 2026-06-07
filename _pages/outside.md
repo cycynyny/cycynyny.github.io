@@ -25,12 +25,16 @@ I think about AI regularly -- both as a tool in my research and teaching, and as
 
 I cook Chinese food regularly -- it's one of the ways I stay connected to home. Here are some recent dishes.
 
-| | |
-|:---:|:---:|
-| ![Beef Stir Fry](/images/food/beef-stir-fry.jpg) | ![Roasted Lamb Chops](/images/food/lamb-chops.jpg) |
-| 青椒牛肉 Beef and Green Pepper Stir Fry | 烤羊排 Roasted Lamb Chops |
-| ![Noodle Bowl](/images/food/noodle-bowl.jpg) | ![Fried Rice](/images/food/fried-rice.jpg) |
-| 笋丝拌面 Noodles with Braised Bamboo Shoots | 火腿蛋炒饭 Ham and Egg Fried Rice |
+<table>
+<tr>
+<td style="text-align:center; padding:8px;"><img src="/images/food/beef-stir-fry.jpg" width="300"><br>青椒牛肉 Beef and Green Pepper Stir Fry</td>
+<td style="text-align:center; padding:8px;"><img src="/images/food/lamb-chops.jpg" width="300"><br>烤羊排 Roasted Lamb Chops</td>
+</tr>
+<tr>
+<td style="text-align:center; padding:8px;"><img src="/images/food/noodle-bowl.jpg" width="300"><br>笋丝拌面 Noodles with Braised Bamboo Shoots</td>
+<td style="text-align:center; padding:8px;"><img src="/images/food/fried-rice.jpg" width="300"><br>火腿蛋炒饭 Ham and Egg Fried Rice</td>
+</tr>
+</table>
 ---
 
 ## Travel
