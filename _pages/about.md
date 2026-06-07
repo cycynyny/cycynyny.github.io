@@ -8,29 +8,31 @@ redirect_from:
   - /about.html
 ---
 
-I am an **Assistant Professor** in the Department of Mechanical and Mechatronic Engineering and Advanced Manufacturing at [California State University, Chico](https://www.csuchico.edu/). My research focuses on **heat transfer in supercritical CO₂ systems**, with emphasis on turbulent flow, thermal entrance behavior, and near-critical thermophysical effects. I also lead aerospace and rocketry research through the [Chico Rocketry and Aerospace Club (CRAC)](https://www.csuchico.edu/), where student teams design, analyze, and test high-powered rocket systems.
+I am an **Assistant Professor** in the Department of Mechanical and Mechatronic Engineering and Advanced Manufacturing at [California State University, Chico](https://www.csuchico.edu/). My research focuses on **heat transfer in supercritical CO₂ systems**, with emphasis on turbulent flow, thermal entrance behavior, and near-critical thermophysical effects. I also co-advise the [Chico Rocketry and Aerospace Club (CRAC)](https://www.csuchico.edu/), where student teams design, analyze, and test high-powered rocket systems with work spanning CFD drag modeling, fin flutter analysis, airbrake design, and additive manufacturing.
 
-I teach **MECH 208 (Introduction to Technical Computing)** and **MECH 338 (Heat Transfer)**, and oversee the Carroll A. Curtis Thermal-Fluids Laboratory.
+I teach **MECH 208 (Introduction to Technical Computing)** and **MECH 338 (Heat Transfer)**, and oversee the Carroll A. Curtis Thermal-Fluids Laboratory (LANG 122).
 
-I earned my B.S. in Aerospace Engineering from the Civil Aviation University of China (2018), M.S. in Aerospace Engineering from Embry-Riddle Aeronautical University (2020), and Ph.D. in Mechanical Engineering from Embry-Riddle (2024), advised by Prof. Sandra Boetcher.
+I earned my B.S. in Aerospace Engineering from the Civil Aviation University of China (2018), M.S. in Aerospace Engineering from Embry-Riddle Aeronautical University (2020, Graduate With Distinction), and Ph.D. in Mechanical Engineering from Embry-Riddle (2024), advised by Prof. Sandra K.S. Boetcher.
 
 ## News
 
-- **Jun 2026** -- Traveling to IREC 2026 (Midland, TX) with CRAC as faculty advisor.
-- **Jun 2026** -- Four conference papers submitted to ASME IMECE 2026 and AIAA ASCEND 2026.
-- **May 2026** -- CRAC secured the CSU Governor's Award grant for Launchpad Chico partnership.
-- **May 2026** -- Completed peer reviews for *Numerical Heat Transfer Part A* and a hypersonic experimental fluid dynamics paper.
+- **Jun 2026** -- Attending IREC 2026 (Midland, TX) with CRAC as faculty advisor.
+- **Jun 2026** -- Three papers accepted to ASME IMECE 2026 and one to AIAA ASCEND 2026.
+- **May 2026** -- PERM certified; EB-2 I-140 filing in progress.
+- **May 2026** -- CRAC secured the CSU Governor's Award: Launchpad Chico partnership with Chico High School ($11,590).
+- **Mar 2026** -- Four student projects selected as top-10 presenters at the 2026 Chico State Student Research Symposium, advancing to the CSU Statewide Competition at San Jose State.
 - **Aug 2024** -- Joined CSU Chico as Assistant Professor.
 
 ## Research Interests
 
-- Heat transfer in supercritical carbon dioxide (sCO₂) systems
-- Turbulent flow, thermal entrance region, and near-critical thermophysical effects
+- Convective heat transfer in supercritical carbon dioxide (sCO₂): thermal entrance region, turbulence, and near-critical effects
 - Computational fluid dynamics (CFD) and numerical modeling
-- Aerospace and rocketry: drag modeling, fin flutter, airbrake systems
-- Additive manufacturing and acoustic characterization
+- Aerospace and rocketry: drag prediction, fin flutter, airbrake design
+- Additive manufacturing defect characterization
+- Acoustic and vibrational analysis of engineering structures
 
 ## Teaching
 
-- **[MECH 208 – Introduction to Technical Computing](/teaching/mech208)** -- MATLAB programming, problem solving, and engineering computation.
-- **[MECH 338 – Heat Transfer](/teaching/mech338)** -- Conduction, convection, radiation, and engineering applications.
+- **MECH 208 -- Introduction to Technical Computing** -- MATLAB programming, numerical methods, and engineering computation (offered every semester since Fall 2024)
+- **MECH 338 -- Heat Transfer** -- Conduction, convection, radiation, and engineering applications (offered every semester since Fall 2024)
+- **MECH 498 -- Introduction to Aerospace Propulsion** -- New elective launching Fall 2026; mechanics and thermodynamics of air-breathing and rocket propulsion systems
