@@ -134,6 +134,7 @@ Professors do research in the lab. I also do research in my kitchen. Cooking kee
 
 <div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
   <div style="min-width: 260px;"><img src="/images/travel/NYC/NYC-1.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
+  <div style="min-width: 140px;"><img src="/images/travel/NYC/NYC-9.jpeg" style="width:140px; height:200px; object-fit:cover; border-radius:8px;"></div>
   <div style="min-width: 260px;"><img src="/images/travel/NYC/NYC-2.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
   <div style="min-width: 260px;"><img src="/images/travel/NYC/NYC-3.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
   <div style="min-width: 140px;"><img src="/images/travel/NYC/NYC-4.jpeg" style="width:140px; height:200px; object-fit:cover; border-radius:8px;"></div>
@@ -147,13 +148,13 @@ Professors do research in the lab. I also do research in my kitchen. Cooking kee
 
 <div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
   <div style="min-width: 140px;"><img src="/images/travel/DC/DC-1.jpeg" style="width:140px; height:200px; object-fit:cover; border-radius:8px;"></div>
+  <div style="min-width: 260px;"><img src="/images/travel/DC/DC-7.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
+  <div style="min-width: 260px;"><img src="/images/travel/DC/DC-8.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
   <div style="min-width: 260px;"><img src="/images/travel/DC/DC-2.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
   <div style="min-width: 260px;"><img src="/images/travel/DC/DC-3.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
   <div style="min-width: 260px;"><img src="/images/travel/DC/DC-4.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
   <div style="min-width: 260px;"><img src="/images/travel/DC/DC-5.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
   <div style="min-width: 260px;"><img src="/images/travel/DC/DC-6.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
-  <div style="min-width: 260px;"><img src="/images/travel/DC/DC-7.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
-  <div style="min-width: 260px;"><img src="/images/travel/DC/DC-8.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
 </div>
 
 <!-- -->
