@@ -16,13 +16,13 @@ I received my **B.S. in Aerospace Engineering** from the **Civil Aviation Univer
 
 ## News
 
-- **Jun 2026** -- Serving as faculty advisor for the CSU Chico CRAC team at IREC 2026 (Midland, TX).
-- **May 2026** -- Presented at the AIAA ASCEND 2026 Conference.
-- **May 2026** -- Awarded the 2026-2027 CSU RSCA Grant ($7,656).
-- **Apr 2026** -- Awarded the University Foundation Governors' Award ($11,590).
-- **Apr 2026** -- Received Honorable Mention, Early Career Community Engagement Award, CSU Chico Office of Civic Engagement.
-- **Mar 2026** -- Selected to attend the CSU Statewide Student Research Symposium Competition at San Jose State.
-- **Aug 2024** -- Joined CSU Chico as Assistant Professor.
+- **Jun 2026**  Serving as faculty advisor for the CSU Chico CRAC team at IREC 2026.
+- **May 2026**  Presented at the AIAA ASCEND 2026 Conference.
+- **May 2026**  Awarded the 2026-2027 CSU RSCA Grant ($7,656).
+- **Apr 2026**  Awarded the University Foundation Governors' Award ($11,590).
+- **Apr 2026**  Received Honorable Mention, Early Career Community Engagement Award, CSU Chico Office of Civic Engagement.
+- **Mar 2026**  Selected to attend the CSU Statewide Student Research Symposium Competition at San Jose State.
+- **Aug 2024**  Joined CSU Chico as Assistant Professor.
 
 ## Research Interests
 
