@@ -12,7 +12,7 @@ redirect_from:
 
 ---
 
-I am an **Assistant Professor** in the Department of Mechanical and Mechatronic Engineering and Advanced Manufacturing at [California State University, Chico](https://www.csuchico.edu/). My interests include **thermal-fluid sciences**, **aerospace systems**, and **engineering education**, with an emphasis on computational modeling, experimental methods, and AI-enhanced learning. I co-advise the **Chico Rocketry and Aerospace Club (CRAC)**, where students design, analyze, and test high-powered rocket systems.
+My interests include **thermal-fluid sciences**, **aerospace systems**, and **engineering education**, with an emphasis on computational modeling, experimental methods, and AI-enhanced learning. I co-advise the **Chico Rocketry and Aerospace Club (CRAC)**, where students design, analyze, and test high-powered rocket systems.
 
 ## Education
 
