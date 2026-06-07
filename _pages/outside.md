@@ -27,8 +27,6 @@ I cook Chinese food regularly -- it's one of the ways I stay connected to home. 
 
 | | |
 |:---:|:---:|
-| ![Sweet and Sour Spare Ribs](/images/food/spare-ribs.jpg) | ![Dry-Fried Green Beans](/images/food/green-beans.jpg) |
-| 糖醋排骨 Sweet and Sour Spare Ribs | 干煸四季豆 Dry-Fried Green Beans |
 | ![Beef Stir Fry](/images/food/beef-stir-fry.jpg) | ![Roasted Lamb Chops](/images/food/lamb-chops.jpg) |
 | 青椒牛肉 Beef and Green Pepper Stir Fry | 烤羊排 Roasted Lamb Chops |
 | ![Noodle Bowl](/images/food/noodle-bowl.jpg) | ![Fried Rice](/images/food/fried-rice.jpg) |
