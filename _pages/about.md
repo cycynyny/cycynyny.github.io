@@ -8,9 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an **Assistant Professor** in the Department of Mechanical and Mechatronic Engineering and Advanced Manufacturing at [California State University, Chico](https://www.csuchico.edu/). My research focuses on **heat transfer in supercritical CO₂ systems**, with emphasis on turbulent flow, thermal entrance behavior, and near-critical thermophysical effects. 
-
-I serve as a faculty advisor for the **Chico Rocketry and Aerospace Club (CRAC)**, where student teams design, analyze, manufacture, and test high-powered rocket systems. Current projects span computational fluid dynamics (CFD) drag modeling, fin flutter analysis, airbrake design, and additive manufacturing.
+I am an **Assistant Professor** in the Department of Mechanical and Mechatronic Engineering and Advanced Manufacturing at [California State University, Chico](https://www.csuchico.edu/). My interests include **thermal-fluid sciences**, **aerospace systems**, and **engineering education**, with an emphasis on computational modeling, experimental methods, and AI-enhanced learning. I co-advise the **Chico Rocketry and Aerospace Club (CRAC)**, where students design, analyze, and test high-powered rocket systems.
 
 I received my **B.S. in Aerospace Engineering** from the **Civil Aviation University of China** (2018), and my **M.S. (2020)** and **Ph.D. (2024)** in Aerospace and Mechanical Engineering from **Embry-Riddle Aeronautical University**.
 
