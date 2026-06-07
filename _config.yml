@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Assistant Professor"
+title                    : "Yang Chao, Ph. D."
 title_separator          : "-"
 name                     : &name "Yang Chao"
 description              : &description "Personal academic website of Yang Chao, Assistant Professor of Mechanical Engineering at CSU Chico."   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -25,9 +25,9 @@ author:
   avatar           : "images/ME.PNG"
   name             : "Yang Chao"
   pronouns         : # example: "he/him"  
-  bio              : "Assistant Professor, Mechanical and Mechatronic Engineering and Advanced Manufacturing, California State University, Chico."
+  bio              : "Assistant Professor in Mechanical Engineering."
   location         : "Chico, CA"
-  employer         : "Red Brick University"
+  employer         : "California State University, Chico"
   uri              : # URL
   email            : "ychao@csuchico.edu" 
 
@@ -37,10 +37,10 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=wxlWCxYAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0002-8478-9573"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -56,7 +56,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
