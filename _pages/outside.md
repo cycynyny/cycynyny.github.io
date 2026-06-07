@@ -23,7 +23,8 @@ author_profile: true
 
 </div>
 
-As someone who teaches engineering and thinks about AI in education regularly, I find *Co-Intelligence* particularly relevant. *Flowers for Algernon* is a very different read from my usual nonfiction, but hard to put down.
+<!-- -->
+Most of my reading is nonfiction, but every now and then I pick up a novel that reminds me why people read fiction. At the moment, I'm alternating between Co-Intelligence, a book about living and working with AI, and Flowers for Algernon, a classic that has been much harder to put down than I expected.
 ---
 
 ## AI and Technology
