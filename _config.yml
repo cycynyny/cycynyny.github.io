@@ -22,7 +22,7 @@ repository               : "cycynyny/cycynyny.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/ME.png"
+  avatar           : "images/Self.png"
   name             : "Yang Chao"
   pronouns         : # example: "he/him"  
   bio              : "Assistant Professor in Mechanical Engineering."
