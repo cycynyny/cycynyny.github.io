@@ -10,22 +10,30 @@ author_profile: true
 <div style="display: flex; gap: 16px; padding: 12px 0;">
 
   <div style="min-width: 160px; text-align: center;">
-    <img src="/images/books/co-intelligence.jpeg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    <a href="https://www.goodreads.com/book/show/198678736-co-intelligence" target="_blank">
+      <img src="/images/books/co-intelligence.jpeg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    </a>
     <p style="font-size:0.85em; margin-top:6px;"><i>Co-Intelligence</i><br>Ethan Mollick</p>
   </div>
 
   <div style="min-width: 160px; text-align: center;">
-    <img src="/images/books/flowers-algernon.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    <a href="https://www.goodreads.com/book/show/18373.Flowers_for_Algernon" target="_blank">
+      <img src="/images/books/flowers-algernon.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    </a>
     <p style="font-size:0.85em; margin-top:6px;"><i>Flowers for Algernon</i><br>Daniel Keyes</p>
   </div>
 
   <div style="min-width: 160px; text-align: center;">
-    <img src="/images/books/art-of-spending-money.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    <a href="https://www.goodreads.com/book/show/231148075-the-art-of-spending-money" target="_blank">
+      <img src="/images/books/art-of-spending-money.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    </a>
     <p style="font-size:0.85em; margin-top:6px;"><i>The Art of Spending Money</i><br>Morgan Housel</p>
   </div>
 
   <div style="min-width: 160px; text-align: center;">
-    <img src="/images/books/slow-productivity.jpeg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    <a href="https://www.goodreads.com/book/show/197773418-slow-productivity" target="_blank">
+      <img src="/images/books/slow-productivity.jpeg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    </a>
     <p style="font-size:0.85em; margin-top:6px;"><i>Slow Productivity</i><br>Cal Newport</p>
   </div>
 
