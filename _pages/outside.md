@@ -9,7 +9,7 @@ author_profile: true
 
 **Currently reading:**
 
-- *Co-Intelligence: Living and Working with AI* by Ethan Mollick -- A thoughtful exploration of how AI is reshaping the way we work, think, and collaborate. As someone who teaches engineering and follows AI developments closely, I find this book particularly relevant. Thoughts to come.
+- *Co-Intelligence: Living and Working with AI* by Ethan Mollick -- A thoughtful exploration of how AI is reshaping the way we work, think, and collaborate. As someone who teaches engineering and thinks about AI in education regularly, I find this book particularly relevant. Thoughts to come.
 
 - *Flowers for Algernon* by Daniel Keyes -- A classic science fiction novelette about intelligence, humanity, and what it means to change. A very different read from my usual nonfiction, but hard to put down.
 
@@ -23,7 +23,41 @@ I think about AI regularly -- both as a tool in my research and teaching, and as
 
 ## Cooking
 
-*Photos and recipes coming soon.*
+I cook Chinese food regularly -- it's one of the ways I stay connected to home. Here are some recent dishes.
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 16px;">
+
+  <div>
+    <img src="/images/food/spare-ribs.jpg" alt="Sweet and Sour Spare Ribs" style="width:100%; border-radius:8px;">
+    <p style="text-align:center; font-size:0.9em;">糖醋排骨 Sweet and Sour Spare Ribs</p>
+  </div>
+
+  <div>
+    <img src="/images/food/green-beans.jpg" alt="Dry-Fried Green Beans" style="width:100%; border-radius:8px;">
+    <p style="text-align:center; font-size:0.9em;">干煸四季豆 Dry-Fried Green Beans</p>
+  </div>
+
+  <div>
+    <img src="/images/food/beef-stir-fry.jpg" alt="Beef Stir Fry" style="width:100%; border-radius:8px;">
+    <p style="text-align:center; font-size:0.9em;">青椒牛肉 Beef and Green Pepper Stir Fry</p>
+  </div>
+
+  <div>
+    <img src="/images/food/lamb-chops.jpg" alt="Roasted Lamb Chops" style="width:100%; border-radius:8px;">
+    <p style="text-align:center; font-size:0.9em;">烤羊排 Roasted Lamb Chops</p>
+  </div>
+
+  <div>
+    <img src="/images/food/noodle-bowl.jpg" alt="Noodle Bowl" style="width:100%; border-radius:8px;">
+    <p style="text-align:center; font-size:0.9em;">笋丝拌面 Noodle Bowl</p>
+  </div>
+
+  <div>
+    <img src="/images/food/fried-rice.jpg" alt="Fried Rice" style="width:100%; border-radius:8px;">
+    <p style="text-align:center; font-size:0.9em;">炒饭 Fried Rice</p>
+  </div>
+
+</div>
 
 ---
 
@@ -31,6 +65,6 @@ I think about AI regularly -- both as a tool in my research and teaching, and as
 
 **New York City** -- *[Your thoughts here]*
 
-**Washington, D.C.** -- *[Your thoughts here]*
+![New York City](/images/travel/nyc.jpg)
 
----
+**Washington, D.C.** -- *[Your thoughts here]*
