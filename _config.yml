@@ -25,7 +25,7 @@ author:
   avatar           : "Self.jpg"
   name             : "Yang Chao"
   pronouns         : # example: "he/him"  
-  bio              : "Assistant Professor of Mechanical and Aerospace Engineering"
+  bio              : # URL
   location         : 
   employer         : "California State University Chico"
   uri              : # URL
