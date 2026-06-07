@@ -130,6 +130,9 @@ Professors do research in the lab. I also do research in my kitchen. Cooking kee
 
 ## Travel
 
+“The real voyage of discovery consists not in seeking new landscapes, but in having new eyes.”
+— Marcel Proust
+
 ### New York City
 
 <div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
