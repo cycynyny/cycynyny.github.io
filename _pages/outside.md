@@ -23,7 +23,7 @@ I think about AI regularly -- both as a tool in my research and teaching, and as
 
 ## Cooking
 
-I cook Chinese food regularly -- it's one of the ways I stay connected to home. Here are some recent dishes.
+Professors do research in the lab. I also do research in my kitchen. Cooking keeps me connected to home and inspires many of the examples I use in my Heat Transfer class.
 
 <div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
 
