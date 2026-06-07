@@ -25,26 +25,26 @@ I think about AI regularly -- both as a tool in my research and teaching, and as
 
 I cook Chinese food regularly -- it's one of the ways I stay connected to home. Here are some recent dishes.
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 16px;">
+<div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
 
-  <div>
-    <img src="/images/food/beef-stir-fry.jpg" alt="Beef Stir Fry" style="width:100%; border-radius:8px;">
-    <p style="text-align:center; font-size:0.9em;">青椒牛肉 Beef and Green Pepper Stir Fry</p>
+  <div style="min-width: 260px; text-align: center;">
+    <img src="/images/food/beef-stir-fry.jpg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;">青椒牛肉 Beef and Green Pepper Stir Fry</p>
   </div>
 
-  <div>
-    <img src="/images/food/lamb-chops.jpg" alt="Roasted Lamb Chops" style="width:100%; border-radius:8px;">
-    <p style="text-align:center; font-size:0.9em;">烤羊排 Roasted Lamb Chops</p>
+  <div style="min-width: 260px; text-align: center;">
+    <img src="/images/food/lamb-chops.jpg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;">烤羊排 Roasted Lamb Chops</p>
   </div>
 
-  <div>
-    <img src="/images/food/noodle-bowl.jpg" alt="Noodle Bowl" style="width:100%; border-radius:8px;">
-    <p style="text-align:center; font-size:0.9em;">笋丝拌面 Noodles with Braised Bamboo Shoots</p>
+  <div style="min-width: 260px; text-align: center;">
+    <img src="/images/food/noodle-bowl.jpg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;">笋丝拌面 Noodles with Braised Bamboo Shoots</p>
   </div>
 
-  <div>
-    <img src="/images/food/fried-rice.jpg" alt="Fried Rice" style="width:100%; border-radius:8px;">
-    <p style="text-align:center; font-size:0.9em;">火腿蛋炒饭 Ham and Egg Fried Rice</p>
+  <div style="min-width: 260px; text-align: center;">
+    <img src="/images/food/fried-rice.jpg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;">火腿蛋炒饭 Ham and Egg Fried Rice</p>
   </div>
 
 </div>
