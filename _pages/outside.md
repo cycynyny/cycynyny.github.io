@@ -44,6 +44,13 @@ author_profile: true
     <p style="font-size:0.85em; margin-top:6px;"><i>Outliers</i><br>Malcolm Gladwell</p>
   </div>
 
+  <div style="min-width: 160px; text-align: center;">
+    <a href="https://www.goodreads.com/book/show/60965426-the-creative-act" target="_blank">
+      <img src="/images/books/creative-act.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    </a>
+    <p style="font-size:0.85em; margin-top:6px;"><i>The Creative Act: A Way of Being</i><br>Rick Rubin</p>
+  </div>
+
 </div>
 
 Most of my reading is nonfiction, but every now and then I pick up a novel that reminds me why people read fiction. At the moment, I'm alternating between Co-Intelligence, a book about living and working with AI, and Flowers for Algernon, a classic that has been much harder to put down than I expected.
