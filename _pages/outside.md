@@ -36,6 +36,13 @@ author_profile: true
     </a>
     <p style="font-size:0.85em; margin-top:6px;"><i>Slow Productivity</i><br>Cal Newport</p>
   </div>
+  
+  <div style="min-width: 160px; text-align: center;">
+    <a href="https://www.goodreads.com/book/show/3228917-outliers" target="_blank">
+      <img src="/images/books/outliers.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    </a>
+    <p style="font-size:0.85em; margin-top:6px;"><i>Outliers</i><br>Malcolm Gladwell</p>
+  </div>
 
 </div>
 
