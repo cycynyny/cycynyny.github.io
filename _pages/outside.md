@@ -9,10 +9,21 @@ author_profile: true
 
 **Currently reading:**
 
-- *Co-Intelligence: Living and Working with AI* by Ethan Mollick -- A thoughtful exploration of how AI is reshaping the way we work, think, and collaborate. As someone who teaches engineering and thinks about AI in education regularly, I find this book particularly relevant. Thoughts to come.
+<div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
 
-- *Flowers for Algernon* by Daniel Keyes -- A classic science fiction novelette about intelligence, humanity, and what it means to change. A very different read from my usual nonfiction, but hard to put down.
+  <div style="min-width: 160px; text-align: center;">
+    <img src="/images/books/co-intelligence.jpeg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;"><i>Co-Intelligence</i><br>Ethan Mollick</p>
+  </div>
 
+  <div style="min-width: 160px; text-align: center;">
+    <img src="/images/books/flowers-algernon.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;"><i>Flowers for Algernon</i><br>Daniel Keyes</p>
+  </div>
+
+</div>
+
+As someone who teaches engineering and thinks about AI in education regularly, I find *Co-Intelligence* particularly relevant. *Flowers for Algernon* is a very different read from my usual nonfiction, but hard to put down.
 ---
 
 ## AI and Technology
