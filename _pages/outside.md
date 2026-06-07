@@ -7,6 +7,10 @@ author_profile: true
 
 ## Reading
 
+## Reading
+
+**Currently reading:**
+
 <div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
 
   <div style="min-width: 160px; text-align: center;">
@@ -17,6 +21,24 @@ author_profile: true
   <div style="min-width: 160px; text-align: center;">
     <img src="/images/books/flowers-algernon.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
     <p style="font-size:0.85em; margin-top:6px;"><i>Flowers for Algernon</i><br>Daniel Keyes</p>
+  </div>
+
+</div>
+
+<!-- -->
+
+**Recently read:**
+
+<div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
+
+  <div style="min-width: 160px; text-align: center;">
+    <img src="/images/books/art-of-spending-money.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;"><i>The Art of Spending Money</i><br>Morgan Housel</p>
+  </div>
+
+  <div style="min-width: 160px; text-align: center;">
+    <img src="/images/books/slow-productivity.jpeg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+    <p style="font-size:0.85em; margin-top:6px;"><i>Slow Productivity</i><br>Cal Newport</p>
   </div>
 
 </div>
