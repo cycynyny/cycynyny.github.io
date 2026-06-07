@@ -8,11 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am an **Assistant Professor** in the Department of Mechanical and Mechatronic Engineering and Advanced Manufacturing at [California State University, Chico](https://www.csuchico.edu/). My research focuses on **heat transfer in supercritical CO₂ systems**, with emphasis on turbulent flow, thermal entrance behavior, and near-critical thermophysical effects. I also co-advise the [Chico Rocketry and Aerospace Club (CRAC)](https://www.csuchico.edu/), where student teams design, analyze, and test high-powered rocket systems with work spanning CFD drag modeling, fin flutter analysis, airbrake design, and additive manufacturing.
+I am an **Assistant Professor** in the Department of Mechanical and Mechatronic Engineering and Advanced Manufacturing at [California State University, Chico](https://www.csuchico.edu/). My research focuses on **heat transfer in supercritical CO₂ systems**, with emphasis on turbulent flow, thermal entrance behavior, and near-critical thermophysical effects. 
 
-I teach **MECH 208 (Introduction to Technical Computing)** and **MECH 338 (Heat Transfer)**, and oversee the Carroll A. Curtis Thermal-Fluids Laboratory (LANG 122).
+I also serve as a faculty advisor for the [Chico Rocketry and Aerospace Club (CRAC)](https://www.csuchico.edu/), where student teams design, analyze, manufacture, and test high-powered rocket systems. Current projects span computational fluid dynamics (CFD) drag modeling, fin flutter analysis, airbrake design, and additive manufacturing.
 
-I earned my B.S. in Aerospace Engineering from the Civil Aviation University of China (2018), M.S. in Aerospace Engineering from Embry-Riddle Aeronautical University (2020, Graduate With Distinction), and Ph.D. in Mechanical Engineering from Embry-Riddle (2024), advised by Prof. Sandra K.S. Boetcher.
+I teach **MECH 208 (Introduction to Technical Computing)**, **MECH 338 (Heat Transfer)** and **MECH 498 (Introduction to Aerospace Propulsion)**, and oversee the Carroll A. Curtis Thermal-Fluids Laboratory (LANG 122). Through both teaching and research, I strive to provide students with hands-on experiences that connect engineering fundamentals to real-world applications in thermal sciences and aerospace engineering.
+
+I received my **B.S. in Aerospace Engineering** from the **Civil Aviation University of China** (2018), and my **M.S. (2020)** and **Ph.D. (2024)** in Aerospace and Mechanical Engineering from **Embry-Riddle Aeronautical University**.
 
 ## News
 
