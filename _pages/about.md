@@ -24,11 +24,9 @@ I received my **B.S. in Aerospace Engineering** from the **Civil Aviation Univer
 
 ## Research Interests
 
-- Convective heat transfer in supercritical carbon dioxide (sCO₂): thermal entrance region, turbulence, and near-critical effects
-- Computational fluid dynamics (CFD) and numerical modeling
-- Aerospace and rocketry: drag prediction, fin flutter, airbrake design
-- Additive manufacturing defect characterization
-- Acoustic and vibrational analysis of engineering structures
+- Computational and experimental thermal-fluid sciences
+- Aerospace and rocketry systems: CFD drag modeling, fin flutter analysis, airbrake design
+- Engineering education and AI integration in undergraduate STEM
 
 ## Teaching
 
