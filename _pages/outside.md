@@ -23,8 +23,8 @@ author_profile: true
 
 </div>
 
-<!-- -->
 Most of my reading is nonfiction, but every now and then I pick up a novel that reminds me why people read fiction. At the moment, I'm alternating between Co-Intelligence, a book about living and working with AI, and Flowers for Algernon, a classic that has been much harder to put down than I expected.
+
 ---
 
 ## AI and Technology
