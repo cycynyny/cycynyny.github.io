@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-**Assistant Professor, Department of Mechanical and Mechatronic Engineering and Advanced Manufacturing, California State University, Chico**
+**Assistant Professor, Department of Mechanical and Mechatronic Engineering and Advanced Manufacturing**
 
 ---
 
