@@ -7,8 +7,6 @@ author_profile: true
 
 ## Books
 
-**Currently reading**
-
 <div style="display: flex; gap: 16px; padding: 12px 0;">
 
   <div style="min-width: 160px; text-align: center;">
@@ -21,14 +19,6 @@ author_profile: true
     <p style="font-size:0.85em; margin-top:6px;"><i>Flowers for Algernon</i><br>Daniel Keyes</p>
   </div>
 
-</div>
-
-<!-- -->
-
-**Recently read**
-
-<div style="display: flex; gap: 16px; padding: 12px 0;">
-
   <div style="min-width: 160px; text-align: center;">
     <img src="/images/books/art-of-spending-money.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
     <p style="font-size:0.85em; margin-top:6px;"><i>The Art of Spending Money</i><br>Morgan Housel</p>
@@ -40,8 +30,6 @@ author_profile: true
   </div>
 
 </div>
-
-<!-- -->
 
 Most of my reading is nonfiction, but every now and then I pick up a novel that reminds me why people read fiction. At the moment, I'm alternating between Co-Intelligence, a book about living and working with AI, and Flowers for Algernon, a classic that has been much harder to put down than I expected.
 
