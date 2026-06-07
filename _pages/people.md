@@ -28,12 +28,12 @@ I work with undergraduate students on projects in heat transfer, CFD, aerospace 
 
 | Student | Degree | Current Position |
 |---|---|---|
-| Forest Siewert | B.S. Mechanical Engineering, CSUC 2025 | Ph.D. student, University of Utah |
-| Samaher Shaheen | B.S. Mechanical Engineering, CSUC 2025 | M.S. student, University of Utah |
 | Edmond Agopian | B.S. Mechanical Engineering, CSUC 2026 | M.S. student, University of Colorado Boulder |
-| Benjamin Nelson | B.S. Mechanical Engineering, CSUC 2026 | NASA Marshall Space Flight Center intern (Summer 2025) |
+| Benjamin Nelson | B.S. Mechanical Engineering, CSUC 2026 | M.S. student, University of Minnesota (incoming); NASA Marshall Space Flight Center intern (Summer 2025) |
 | Elizabeth Rodriguez | B.S. Computer Science, CSUC 2026 | NSF REU, Johns Hopkins University (Summer 2025) |
 | David Nguiffo | B.S. Mechanical Engineering, CSUC 2026 | Ph.D. applicant, Embry-Riddle Aeronautical University |
+| Forest Siewert | B.S. Mechanical Engineering, CSUC 2025 | Ph.D. student, University of Utah |
+| Samaher Shaheen | B.S. Mechanical Engineering, CSUC 2025 | M.S. student, University of Utah |
 | Kevin Walsh | M.S. Mechanical Engineering, ERAU 2025 | Quality Engineer, Boeing |
 
 ---
