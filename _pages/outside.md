@@ -37,7 +37,7 @@ Most of my reading is nonfiction, but every now and then I pick up a novel that 
 
 ## AI and Technology
 
-I think about AI regularly -- both as a tool in my research and teaching, and as a broader cultural and intellectual phenomenon. Reading *Co-Intelligence* is part of an ongoing effort to think more carefully about how AI will shape engineering education and academic work. I'll share more reflections here as they develop.
+AI has become part of my daily work in both teaching and research. I'm interested in how these tools can help engineers learn, create, and solve problems more effectively. At the same time, I believe we need to be careful not to let convenience replace understanding. Finding the right balance between AI assistance and genuine learning is a challenge that I continue to explore.
 
 ---
 
