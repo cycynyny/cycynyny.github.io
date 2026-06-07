@@ -7,48 +7,48 @@ author_profile: true
 
 ## Books
 
-<div style="display: flex; gap: 16px; padding: 12px 0;">
+<div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
 
-  <div style="min-width: 160px; text-align: center;">
+  <div style="min-width: 130px; text-align: center;">
     <a href="https://www.goodreads.com/book/show/198678736-co-intelligence" target="_blank">
-      <img src="/images/books/co-intelligence.jpeg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+      <img src="/images/books/co-intelligence.jpeg" style="width:130px; height:190px; object-fit:cover; border-radius:8px;">
     </a>
     <p style="font-size:0.85em; margin-top:6px;"><i>Co-Intelligence</i><br>Ethan Mollick</p>
   </div>
 
-  <div style="min-width: 160px; text-align: center;">
+  <div style="min-width: 130px; text-align: center;">
     <a href="https://www.goodreads.com/book/show/18373.Flowers_for_Algernon" target="_blank">
-      <img src="/images/books/flowers-algernon.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+      <img src="/images/books/flowers-algernon.jpg" style="width:130px; height:190px; object-fit:cover; border-radius:8px;">
     </a>
     <p style="font-size:0.85em; margin-top:6px;"><i>Flowers for Algernon</i><br>Daniel Keyes</p>
   </div>
 
-  <div style="min-width: 160px; text-align: center;">
+  <div style="min-width: 130px; text-align: center;">
     <a href="https://www.goodreads.com/book/show/231148075-the-art-of-spending-money" target="_blank">
-      <img src="/images/books/art-of-spending-money.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+      <img src="/images/books/art-of-spending-money.jpg" style="width:130px; height:190px; object-fit:cover; border-radius:8px;">
     </a>
     <p style="font-size:0.85em; margin-top:6px;"><i>The Art of Spending Money</i><br>Morgan Housel</p>
   </div>
 
-  <div style="min-width: 160px; text-align: center;">
+  <div style="min-width: 130px; text-align: center;">
     <a href="https://www.goodreads.com/book/show/197773418-slow-productivity" target="_blank">
-      <img src="/images/books/slow-productivity.jpeg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+      <img src="/images/books/slow-productivity.jpeg" style="width:130px; height:190px; object-fit:cover; border-radius:8px;">
     </a>
     <p style="font-size:0.85em; margin-top:6px;"><i>Slow Productivity</i><br>Cal Newport</p>
   </div>
-  
-  <div style="min-width: 160px; text-align: center;">
+
+  <div style="min-width: 130px; text-align: center;">
     <a href="https://www.goodreads.com/book/show/3228917-outliers" target="_blank">
-      <img src="/images/books/outliers.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+      <img src="/images/books/outliers.jpg" style="width:130px; height:190px; object-fit:cover; border-radius:8px;">
     </a>
-    <p style="font-size:0.85em; margin-top:6px;"><i>Outliers: The Story of Success</i><br>Malcolm Gladwell</p>
+    <p style="font-size:0.85em; margin-top:6px;"><i>Outliers</i><br>Malcolm Gladwell</p>
   </div>
 
-  <div style="min-width: 160px; text-align: center;">
+  <div style="min-width: 130px; text-align: center;">
     <a href="https://www.goodreads.com/book/show/60965426-the-creative-act" target="_blank">
-      <img src="/images/books/creative-act.jpg" style="width:160px; height:220px; object-fit:cover; border-radius:8px;">
+      <img src="/images/books/creative-act.jpg" style="width:130px; height:190px; object-fit:cover; border-radius:8px;">
     </a>
-    <p style="font-size:0.85em; margin-top:6px;"><i>The Creative Act: A Way of Being</i><br>Rick Rubin</p>
+    <p style="font-size:0.85em; margin-top:6px;"><i>The Creative Act</i><br>Rick Rubin</p>
   </div>
 
 </div>
