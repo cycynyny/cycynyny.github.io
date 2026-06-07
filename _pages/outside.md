@@ -29,22 +29,22 @@ I cook Chinese food regularly -- it's one of the ways I stay connected to home. 
 
   <div style="min-width: 260px; text-align: center;">
     <img src="/images/food/beef-stir-fry.jpg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
-    <p style="font-size:0.85em; margin-top:6px;">青椒牛肉 Beef and Green Pepper Stir Fry</p>
+    <p style="font-size:0.85em; margin-top:6px;">青椒牛肉<br>Beef and Green Pepper Stir Fry</p>
   </div>
 
   <div style="min-width: 260px; text-align: center;">
     <img src="/images/food/lamb-chops.jpg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
-    <p style="font-size:0.85em; margin-top:6px;">烤羊排 Roasted Lamb Chops</p>
+    <p style="font-size:0.85em; margin-top:6px;">烤羊排<br>Roasted Lamb Chops</p>
   </div>
 
   <div style="min-width: 260px; text-align: center;">
     <img src="/images/food/noodle-bowl.jpg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
-    <p style="font-size:0.85em; margin-top:6px;">笋丝拌面 Noodles with Braised Bamboo Shoots</p>
+    <p style="font-size:0.85em; margin-top:6px;">笋丝拌面<br>Noodles with Braised Bamboo Shoots</p>
   </div>
 
   <div style="min-width: 260px; text-align: center;">
     <img src="/images/food/fried-rice.jpg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;">
-    <p style="font-size:0.85em; margin-top:6px;">火腿蛋炒饭 Ham and Egg Fried Rice</p>
+    <p style="font-size:0.85em; margin-top:6px;">火腿蛋炒饭<br>Ham and Egg Fried Rice</p>
   </div>
 
 </div>
