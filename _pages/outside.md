@@ -132,7 +132,7 @@ Professors do research in the lab. I also do research in my kitchen. Cooking kee
 
 <p><em>"The real voyage of discovery consists not in seeking new landscapes, but in having new eyes."</em><br>— Marcel Proust</p>
 
-### New York City
+### New York City, NY
 
 <div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
   <div style="min-width: 260px;"><img src="/images/travel/NYC/NYC-1.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
@@ -159,7 +159,7 @@ Professors do research in the lab. I also do research in my kitchen. Cooking kee
   <div style="min-width: 260px;"><img src="/images/travel/DC/DC-5.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
 </div>
 
-### Acadia National Park, Maine
+### Acadia National Park, ME
 
 <div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
   <div style="min-width: 260px;"><img src="/images/travel/Acadia National Park/acadia-1.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
