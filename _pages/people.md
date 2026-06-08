@@ -9,24 +9,24 @@ I work with undergraduate students on projects in heat transfer, CFD, aerospace 
 
 ---
 
-## Lab in Action
+## Research in Action
 
 Our group presents at major conferences and collaborates across institutions.
 
 <div style="display: flex; overflow-x: auto; gap: 16px; margin: 20px 0;">
   <div style="flex-shrink: 0;">
     <img src="/images/conferences/2025IMECE-1.JPG" alt="ASME IMECE 2025" style="width: 260px; height: 200px; object-fit: cover;">
-    <p style="font-size: 0.9em; margin-top: 8px;"><em>ASME IMECE 2025 | Research presentation</em></p>
+    <p style="font-size: 0.9em; margin-top: 8px;"><em>ASME IMECE 2025 | Research team</em></p>
   </div>
   
   <div style="flex-shrink: 0;">
     <img src="/images/conferences/2025IMECE-2.JPG" alt="ASME IMECE 2025" style="width: 260px; height: 200px; object-fit: cover;">
-    <p style="font-size: 0.9em; margin-top: 8px;"><em>ASME IMECE 2025 | Poster session</em></p>
+    <p style="font-size: 0.9em; margin-top: 8px;"><em>ASME IMECE 2025 | Presentation by David Nguiffo</em></p>
   </div>
 
   <div style="flex-shrink: 0;">
     <img src="/images/conferences/2025IMECE-3.JPG" alt="ASME IMECE 2025" style="width: 260px; height: 200px; object-fit: cover;">
-    <p style="font-size: 0.9em; margin-top: 8px;"><em>ASME IMECE 2025 | Collaboration moment</em></p>
+    <p style="font-size: 0.9em; margin-top: 8px;"><em>ASME IMECE 2025 | Presentation by Enrique Borgzinner</em></p>
   </div>
 
   <div style="flex-shrink: 0;">
