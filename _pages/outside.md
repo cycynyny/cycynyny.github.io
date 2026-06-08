@@ -173,7 +173,14 @@ Professors do research in the lab. I also do research in my kitchen. Cooking kee
 
 ### Boston, MA
 
-
+<div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
+  <div style="min-width: 140px;"><img src="/images/travel/Boston/BOS-1.jpeg" style="width:140px; height:200px; object-fit:cover; border-radius:8px;"></div>
+  <div style="min-width: 260px;"><img src="/images/travel/Boston/BOS-2.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
+  <div style="min-width: 260px;"><img src="/images/travel/Boston/BOS-3.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
+  <div style="min-width: 140px;"><img src="/images/travel/Boston/BOS-4.jpeg" style="width:140px; height:200px; object-fit:cover; border-radius:8px;"></div>
+  <div style="min-width: 260px;"><img src="/images/travel/Boston/BOS-5.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
+  <div style="min-width: 260px;"><img src="/images/travel/Boston/BOS-6.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
+</div>
 
 ### San Francisco, CA
 
