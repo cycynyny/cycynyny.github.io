@@ -13,7 +13,7 @@ title                    : "Yang Chao, Ph. D."
 title_separator          : "-"
 name                     : &name "Yang Chao"
 description              : &description "Personal academic website of Yang Chao, Assistant Professor of Mechanical Engineering at CSU Chico."   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://cycynyny.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://dryangchao.com # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cycynyny/cycynyny.github.io"
 
