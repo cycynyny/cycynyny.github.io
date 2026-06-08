@@ -171,6 +171,10 @@ Professors do research in the lab. I also do research in my kitchen. Cooking kee
   <div style="min-width: 260px;"><img src="/images/travel/Acadia National Park/acadia-6.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
 </div>
 
+### Boston, MA
+
+
+
 ### San Francisco, CA
 
 <div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
