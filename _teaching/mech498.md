@@ -8,7 +8,7 @@ date: 2026-08-01
 location: "Chico, CA"
 ---
 
-A new elective covering the mechanics and thermodynamics of propulsion systems for aerospace vehicles. Students develop a rigorous understanding of both air-breathing engines and rocket propulsion, with connections to current research in the field.
+A new technical elective developed to connect mechanical engineering students with the aerospace industry. Drawing on my background in aerospace engineering, the course introduces the fundamentals of jet propulsion while demonstrating how core mechanical engineering concepts are applied to real aerospace systems.
 
 ## Topics Covered
 
