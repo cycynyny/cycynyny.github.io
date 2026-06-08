@@ -64,8 +64,8 @@ Our group presents at major conferences and collaborates across institutions.
     <p style="font-size: 0.9em; margin-top: 8px;"><em>CSU Student Research Competition 2026</em></p>
   </div>
 </div>
-<!-- -->
-## Current Students
+
+## Current Research Students
 
 | Student | Degree | Project |
 |---|---|---|
@@ -80,7 +80,7 @@ Our group presents at major conferences and collaborates across institutions.
 
 ---
 
-## Alumni
+## Former Research Students
 
 | Student | Degree | Current Position |
 |---|---|---|
