@@ -192,6 +192,15 @@ Professors do research in the lab. I also do research in my kitchen. Cooking kee
   <div style="min-width: 260px;"><img src="/images/travel/Portland/PL-6.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
 </div>
 
+### Seattle, WA
+
+<div style="display: flex; overflow-x: auto; gap: 16px; padding: 12px 0;">
+  <div style="min-width: 140px;"><img src="/images/travel/Seattle/SEA-1.jpeg" style="width:140px; height:200px; object-fit:cover; border-radius:8px;"></div>
+  <div style="min-width: 260px;"><img src="/images/travel/Seattle/SEA-2.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
+  <div style="min-width: 260px;"><img src="/images/travel/Seattle/SEA-3.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
+  <div style="min-width: 260px;"><img src="/images/travel/Seattle/SEA-4.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
+  <div style="min-width: 260px;"><img src="/images/travel/Seattle/SEA-5.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
+</div>
 
 
 
