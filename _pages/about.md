@@ -12,7 +12,7 @@ redirect_from:
 
 ---
 
-I am a mechanical engineer with interests in **thermal-fluid sciences** and **aerospace systems**, with an emphasis on computational modeling, hands-on engineering design, and undergraduate research. I co-advise the **Chico Rocketry and Aerospace Club (CRAC)**, where students design, analyze, and test high-powered rocket systems through competition and research projects.
+I am a mechanical engineer with interests in **thermal-fluid sciences** and **aerospace systems**, with an emphasis on computational modeling, hands-on engineering design, and undergraduate research. I direct the **Carroll A. Curtis Thermal-Fluids Laboratory** and co-advise the **Chico Rocketry and Aerospace Club (CRAC)**, where students design, analyze, and test high-powered rocket systems through competition and research projects.
 
 ## Education
 
