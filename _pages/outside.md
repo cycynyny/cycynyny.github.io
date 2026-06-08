@@ -159,4 +159,5 @@ Professors do research in the lab. I also do research in my kitchen. Cooking kee
   <div style="min-width: 260px;"><img src="/images/travel/DC/DC-5.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
 </div>
 
-<!-- -->
+### Acadia National Park, Maine
+
