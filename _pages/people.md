@@ -71,7 +71,6 @@ Our group presents at major conferences and collaborates across institutions.
 |---|---|---|
 | John Elliott | B.S. Mechatronic Engineering | Airbrake CFD and drag analysis |
 | Parker Truscott | B.S. Mechanical Engineering | Airbrake CFD and drag analysis |
-| Kyle Chen | B.S. Mechanical Engineering | Surrogate drag modeling for rocketry |
 | Ariana McAvoy | B.S. Mechanical Engineering | Surrogate drag modeling for rocketry |
 | Saira Gill | B.S. Mechatronic Engineering | Fin flutter and elliptical fin design |
 | Alex Chavez | B.S. Mechanical Engineering | Fin flutter and modal analysis |
