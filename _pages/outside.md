@@ -167,6 +167,6 @@ Professors do research in the lab. I also do research in my kitchen. Cooking kee
   <div style="min-width: 260px;"><img src="/images/travel/Acadia National Park/acadia-3.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
   <div style="min-width: 260px;"><img src="/images/travel/Acadia National Park/acadia-4.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
   <div style="min-width: 260px;"><img src="/images/travel/Acadia National Park/acadia-5.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
-  <div style="min-width: 260px;"><img src="/images/travel/Acadia National Park/acadia-6.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
   <div style="min-width: 260px;"><img src="/images/travel/Acadia National Park/acadia-7.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
+  <div style="min-width: 260px;"><img src="/images/travel/Acadia National Park/acadia-6.jpeg" style="width:260px; height:200px; object-fit:cover; border-radius:8px;"></div>
 </div>
