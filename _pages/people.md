@@ -14,6 +14,11 @@ I work with undergraduate students on projects in heat transfer, CFD, aerospace 
 Our group presents at major conferences and collaborates across institutions.
 
 <div style="display: flex; overflow-x: auto; gap: 16px; margin: 20px 0;">
+    <div style="flex-shrink: 0; text-align: center;">
+    <img src="/images/conferences/1016IREC_1.JPG" alt="IREC 2026" style="width: 260px; height: 200px; object-fit: cover;">
+    <p style="font-size: 0.9em; margin-top: 8px;"><em>IREC 2026</em></p>
+  </div>
+  
   <div style="flex-shrink: 0; text-align: center;">
     <img src="/images/conferences/2025IMECE-1.JPG" alt="ASME IMECE 2025" style="width: 260px; height: 200px; object-fit: cover;">
     <p style="font-size: 0.9em; margin-top: 8px;"><em>ASME IMECE 2025</em></p>
