@@ -27,7 +27,7 @@ I am a mechanical engineer with interests in **thermal-fluid sciences** and **ae
 
 ## News
 
-- **Jun 2026**  Served as faculty advisor for the CSU Chico CRAC team at IREC 2026; team ranked 23rd of 141 in the 10k COTS class, its best result to date.
+- **Jun 2026**  Served as faculty advisor for the CSU Chico CRAC team at IREC 2026; team ranked **23rd** of 141 in the 10k COTS class, its best result to date.
 - **May 2026**  Presented at the AIAA ASCEND 2026 Conference.
 - **May 2026**  Awarded the 2026-2027 CSU RSCA Grant ($7,656).
 - **Apr 2026**  Awarded the University Foundation Governors' Award ($11,590).
